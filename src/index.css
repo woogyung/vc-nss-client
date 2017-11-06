@@ -1,14 +1,28 @@
-p {
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+p, h1, body {
     margin: 0;
     padding: 0;
 }
 
 body {
-  background-color: black;
+  background-color: #FFF59D;
+  padding: 100px 0;
 }
 
-a {
-    color: hotpink;
+h1 {
+    font-family: 'Fugaz One', cursive;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #03A9F4;
+    font-size: 50px;
+}
+
+.home {
+    font-family: serif;
+    width: 750px;
+    margin: 0 auto;
 }
 
 .article {
@@ -18,6 +32,23 @@ a {
     border-radius: 3px;
 }
 
+.article a {
+    color: #EC407A;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.article a:hover {
+    opacity: 1;
+}
+
 .article p {
+    color: #424242;
     margin-top: 20px;
+    font-size: 25px;
+    letter-spacing: 0.5px;
 }
