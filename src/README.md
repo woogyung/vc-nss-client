@@ -2,5 +2,5 @@
 
 ## News Search System
 
-[NY Times API](https://developer.nytimes.com/)
-[APIGEE Console](https://apigee.com/console/nytimes)
+* [NY Times API](https://developer.nytimes.com/)
+* [APIGEE Console](https://apigee.com/console/nytimes)
