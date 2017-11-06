@@ -1,6 +1,6 @@
 ![Vanilla Coding](https://s3.ap-northeast-2.amazonaws.com/vanilla-coding/Assets/logo_regular%403x.png)
 
-# Vanilla Search System
+# News Search System
 
 `src` 디렉토리내의 `README.md`를 확인해주세요.
 
