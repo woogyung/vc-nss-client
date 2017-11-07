@@ -9,7 +9,13 @@ export default class Home extends React.Component {
       <div className="home">
         {
           articlesData.map((data, i) => {
-            return <Article url={data.web_url} mainHeadline={data.headline.main} key={i} />
+            return <Article
+              url={data.short_url}
+              mainHeadline={data.title}
+              key={i}
+              thumbnailURL={data.multimedia.length ? data.multimedia[1].url : null}
+              publishedDate={data.published_date}
+            />
           })
         }
       </div>

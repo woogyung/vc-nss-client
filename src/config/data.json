@@ -1,553 +1,3057 @@
 [
    {
-      "web_url":"https://www.nytimes.com/1988/09/18/sports/the-seoul-olympics-swimmer-outraces-his-past.html",
-      "snippet":"LEAD: At the age of 12, Chris Jacobs of Livingston, N.J., tried cocaine for the first time. At 21, disgusted with the way drinking and drugs had taken over his life, he bought a .357 magnum. Several times, he sat in a closet, put the barrel in his...",
-      "print_page":"1",
-      "blog":{
-
-      },
-      "source":"The New York Times",
-      "multimedia":[
+      "section":"World",
+      "subsection":"Asia Pacific",
+      "title":"Trump Tells Japan It Can Protect Itself by Buying U.S. Arms",
+      "abstract":"President Trump was by turns generous and challenging as he pressed Japan on shooting down North Korean missiles and on trade imbalances with the United States.",
+      "url":"https://www.nytimes.com/2017/11/06/world/asia/trump-japan-shinzo-abe.html",
+      "byline":"By MARK LANDLER and JULIE HIRSCHFELD DAVIS",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T21:24:40-05:00",
+      "created_date":"2017-11-06T06:01:30-05:00",
+      "published_date":"2017-11-06T06:01:30-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "United States International Relations",
+         "Defense and Military Forces",
+         "Missiles and Missile Defense Systems",
+         "Kidnapping and Hostages",
+         "Political Prisoners"
+      ],
+      "org_facet":[
 
       ],
-      "headline":{
-         "main":"Swimmer Outraces His Past",
-         "kicker":"THE SEOUL OLYMPICS"
-      },
-      "keywords":[
+      "per_facet":[
+         "Abe, Shinzo",
+         "Kim Jong-un",
+         "Trump, Donald J"
+      ],
+      "geo_facet":[
+         "Japan"
+      ],
+      "multimedia":[
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"persons",
-            "value":"JACOBS, CHRISTOPHER"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07prexy-1/07prexy-1-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Prime Minister Shinzo Abe of Japan received President Trump on Monday at Akasaka Palace in Tokyo, accompanied by a military honor guard.",
+            "copyright":"Doug Mills/The New York Times"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"OLYMPIC GAMES (1988)"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07prexy-1/07prexy-1-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Prime Minister Shinzo Abe of Japan received President Trump on Monday at Akasaka Palace in Tokyo, accompanied by a military honor guard.",
+            "copyright":"Doug Mills/The New York Times"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"DRUG ADDICTION AND ABUSE"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07prexy-1/07prexy-1-articleInline.jpg",
+            "format":"Normal",
+            "height":130,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Prime Minister Shinzo Abe of Japan received President Trump on Monday at Akasaka Palace in Tokyo, accompanied by a military honor guard.",
+            "copyright":"Doug Mills/The New York Times"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"SWIMMING"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07prexy-1/07prexy-1-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Prime Minister Shinzo Abe of Japan received President Trump on Monday at Akasaka Palace in Tokyo, accompanied by a military honor guard.",
+            "copyright":"Doug Mills/The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07prexy-1/07prexy-1-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1365,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Prime Minister Shinzo Abe of Japan received President Trump on Monday at Akasaka Palace in Tokyo, accompanied by a military honor guard.",
+            "copyright":"Doug Mills/The New York Times"
          }
       ],
-      "pub_date":"1988-09-18T00:00:00Z",
-      "document_type":"article",
-      "new_desk":"Sports Desk",
-      "byline":{
-         "original":"By FRANK LITSKY"
-      },
-      "type_of_material":"News",
-      "_id":"4fd17ddd8eb7c8105d677eb3",
-      "word_count":1483,
-      "score":6.940839
+      "short_url":"https://nyti.ms/2j2xUr1"
    },
    {
-      "web_url":"https://www.nytimes.com/1988/09/18/sports/the-seoul-olympics-olympic-games-get-under-way.html",
-      "snippet":"",
-      "print_page":"1",
-      "blog":{
-
-      },
-      "source":"The New York Times",
-      "multimedia":[
+      "section":"World",
+      "subsection":"Middle East",
+      "title":"Ritz-Carlton Has Become a Gilded Cage for Saudi Royals",
+      "abstract":"An opulent hotel in Riyadh, the Saudi capital, is being used to house people detained in what Saudi Arabia’s government calls a crackdown on corruption.",
+      "url":"https://www.nytimes.com/2017/11/06/world/middleeast/ritz-carlton-riyadh-saudi-princes.html",
+      "byline":"By NICHOLAS KULISH",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T20:28:31-05:00",
+      "created_date":"2017-11-06T20:28:31-05:00",
+      "published_date":"2017-11-06T20:28:31-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
 
       ],
-      "headline":{
-         "main":"Olympic Games Get Under Way",
-         "kicker":"THE SEOUL OLYMPICS"
-      },
-      "keywords":[
+      "org_facet":[
+         "Ritz-Carlton Hotel Co",
+         "Blackstone Group, The"
+      ],
+      "per_facet":[
+         "Mnuchin, Steven T",
+         "Mohammed bin Salman (1985- )",
+         "Schwarzman, Stephen A",
+         "Alwaleed bin Talal"
+      ],
+      "geo_facet":[
+         "Riyadh (Saudi Arabia)"
+      ],
+      "multimedia":[
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"persons",
-            "value":"WILLIAMS, WENDY LIAN"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07riyadh1/07riyadh1-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Ritz-Carlton hotel in Riyadh on Saturday, as the arrests of prominent Saudis was about to begin.",
+            "copyright":"Faisal Al Nasser/Reuters"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"glocations",
-            "value":"UNITED STATES"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07riyadh1/07riyadh1-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Ritz-Carlton hotel in Riyadh on Saturday, as the arrests of prominent Saudis was about to begin.",
+            "copyright":"Faisal Al Nasser/Reuters"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"OLYMPIC GAMES (1988)"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07riyadh1/07riyadh1-articleInline.jpg",
+            "format":"Normal",
+            "height":127,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Ritz-Carlton hotel in Riyadh on Saturday, as the arrests of prominent Saudis was about to begin.",
+            "copyright":"Faisal Al Nasser/Reuters"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"DIVING (SPORTS EVENT)"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07riyadh1/07riyadh1-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Ritz-Carlton hotel in Riyadh on Saturday, as the arrests of prominent Saudis was about to begin.",
+            "copyright":"Faisal Al Nasser/Reuters"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"SUMMER GAMES (OLYMPICS)"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07riyadh1/07riyadh1-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1342,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Ritz-Carlton hotel in Riyadh on Saturday, as the arrests of prominent Saudis was about to begin.",
+            "copyright":"Faisal Al Nasser/Reuters"
          }
       ],
-      "pub_date":"1988-09-18T00:00:00Z",
-      "document_type":"article",
-      "new_desk":"Sports Desk",
-      "type_of_material":"Caption",
-      "_id":"4fd1a0278eb7c8105d6b41e5",
-      "word_count":3,
-      "score":6.940839
+      "short_url":"https://nyti.ms/2hLY79J"
    },
    {
-      "web_url":"https://www.nytimes.com/1988/09/18/sports/the-seoul-olympics-us-off-to-moderate-start-as-5-advance-but-3-don-t.html",
-      "snippet":"LEAD: Janet Evans and Matt Biondi swam well and said they felt comfortable. Troy Dalbey did what he had to do. Otherwise, the United States had a shaky day as swimming competition began in the Games of the XXIV Olympiad.",
-      "print_page":"5",
-      "blog":{
-
-      },
-      "source":"The New York Times",
-      "multimedia":[
-
+      "section":"World",
+      "subsection":"Asia Pacific",
+      "title":"Wooing Trump, Xi Jinping Seeks Great Power Status for China",
+      "abstract":"Mr. Xi, the most powerful Chinese leader in decades, wants the United States to share global leadership with China as equals.",
+      "url":"https://www.nytimes.com/2017/11/06/world/asia/trump-xi-jinping-visit-china.html",
+      "byline":"By JANE PERLEZ and MARK LANDLER",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T21:22:07-05:00",
+      "created_date":"2017-11-06T05:00:31-05:00",
+      "published_date":"2017-11-06T05:00:31-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "United States International Relations"
       ],
-      "headline":{
-         "main":"U.S. Off to Moderate Start As 5 Advance but 3 Don't",
-         "kicker":"THE SEOUL OLYMPICS"
-      },
-      "keywords":[
+      "org_facet":[
+         "Communist Party of China"
+      ],
+      "per_facet":[
+         "Xi Jinping",
+         "Trump, Donald J"
+      ],
+      "geo_facet":[
+         "China"
+      ],
+      "multimedia":[
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"glocations",
-            "value":"UNITED STATES"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07xi-trump-1/06xi-trump-1-thumbStandard-v2.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"An exhibition in Beijing last month highlighted China&rsquo;s achievements under Xi Jinping, who has projected China as a stable and rich nation, willing to take on the obligations of a major power.",
+            "copyright":"Andy Wong/Associated Press"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"OLYMPIC GAMES (1988)"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07xi-trump-1/06xi-trump-1-thumbLarge-v2.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"An exhibition in Beijing last month highlighted China&rsquo;s achievements under Xi Jinping, who has projected China as a stable and rich nation, willing to take on the obligations of a major power.",
+            "copyright":"Andy Wong/Associated Press"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"SWIMMING"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07xi-trump-1/06xi-trump-1-articleInline.jpg",
+            "format":"Normal",
+            "height":101,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"An exhibition in Beijing last month highlighted China&rsquo;s achievements under Xi Jinping, who has projected China as a stable and rich nation, willing to take on the obligations of a major power.",
+            "copyright":"Andy Wong/Associated Press"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"SUMMER GAMES (OLYMPICS)"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07xi-trump-1/06xi-trump-1-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"An exhibition in Beijing last month highlighted China&rsquo;s achievements under Xi Jinping, who has projected China as a stable and rich nation, willing to take on the obligations of a major power.",
+            "copyright":"Andy Wong/Associated Press"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07xi-trump-1/06xi-trump-1-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1365,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"An exhibition in Beijing last month highlighted China&rsquo;s achievements under Xi Jinping, who has projected China as a stable and rich nation, willing to take on the obligations of a major power.",
+            "copyright":"Andy Wong/Associated Press"
          }
       ],
-      "pub_date":"1988-09-18T00:00:00Z",
-      "document_type":"article",
-      "new_desk":"Sports Desk",
-      "byline":{
-         "original":"By FRANK LITSKY, Special to the New York Times"
-      },
-      "type_of_material":"News",
-      "_id":"4fd1a0278eb7c8105d6b419b",
-      "word_count":877,
-      "score":6.525852
+      "short_url":"https://nyti.ms/2hLVSDH"
    },
    {
-      "web_url":"https://www.nytimes.com/1988/09/18/sports/the-seoul-olympics-men-s-basketball-impressive-debut-for-us-men.html",
-      "snippet":"LEAD: Perhaps it lacks star quality, a player who has a sneaker named for him or a National Basketball Association team counting the days until he arrives at training camp, but collectively, the 1988 United States Olympic basketball team looked ev...",
-      "print_page":"3",
-      "blog":{
-
-      },
-      "source":"The New York Times",
-      "multimedia":[
+      "section":"World",
+      "subsection":"Europe",
+      "title":"In Russian City, a Time Capsule to Comrades of the Future",
+      "abstract":"On the 50th anniversary of the Russian Revolution, the youth of 1967 sent a message to those of 2017: “Stay true to Communism’s ideals.”",
+      "url":"https://www.nytimes.com/2017/11/06/world/europe/russian-revolution-anniversary.html",
+      "byline":"By MATTHEW LUXMOORE",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T09:34:35-05:00",
+      "created_date":"2017-11-06T09:34:35-05:00",
+      "published_date":"2017-11-06T09:34:35-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Russian Revolution (1917)",
+         "Time Capsules"
+      ],
+      "org_facet":[
+         "Severstal"
+      ],
+      "per_facet":[
 
       ],
-      "headline":{
-         "main":"THE SEOUL OLYMPICS: Men's Basketball; Impressive Debut for U.S. Men"
-      },
-      "keywords":[
+      "geo_facet":[
+         "Russia",
+         "USSR (Former Soviet Union)",
+         "Cherepovets (Russia)"
+      ],
+      "multimedia":[
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"glocations",
-            "value":"SPAIN"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07russia-revolution1/russia-revolution1-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Members of the Russian Defense Ministry&rsquo;s &ldquo;Youth Army&rdquo; attended the opening of a time capsule containing a message to the youth of 2017, from the youth of 1967, in Cherepovets, Russia.",
+            "copyright":"Valeri Nistratov for The New York Times"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"glocations",
-            "value":"UNITED STATES"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07russia-revolution1/russia-revolution1-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Members of the Russian Defense Ministry&rsquo;s &ldquo;Youth Army&rdquo; attended the opening of a time capsule containing a message to the youth of 2017, from the youth of 1967, in Cherepovets, Russia.",
+            "copyright":"Valeri Nistratov for The New York Times"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"OLYMPIC GAMES (1988)"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07russia-revolution1/russia-revolution1-articleInline.jpg",
+            "format":"Normal",
+            "height":127,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Members of the Russian Defense Ministry&rsquo;s &ldquo;Youth Army&rdquo; attended the opening of a time capsule containing a message to the youth of 2017, from the youth of 1967, in Cherepovets, Russia.",
+            "copyright":"Valeri Nistratov for The New York Times"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"BASKETBALL"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07russia-revolution1/russia-revolution1-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Members of the Russian Defense Ministry&rsquo;s &ldquo;Youth Army&rdquo; attended the opening of a time capsule containing a message to the youth of 2017, from the youth of 1967, in Cherepovets, Russia.",
+            "copyright":"Valeri Nistratov for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07russia-revolution1/russia-revolution1-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1365,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Members of the Russian Defense Ministry&rsquo;s &ldquo;Youth Army&rdquo; attended the opening of a time capsule containing a message to the youth of 2017, from the youth of 1967, in Cherepovets, Russia.",
+            "copyright":"Valeri Nistratov for The New York Times"
          }
       ],
-      "pub_date":"1988-09-18T00:00:00Z",
-      "document_type":"article",
-      "new_desk":"Sports Desk",
-      "byline":{
-         "original":"By PETER ALFANO, Special to the New York Times"
-      },
-      "type_of_material":"News",
-      "_id":"4fd17f838eb7c8105d67a8ea",
-      "word_count":916,
-      "score":1.8050857
+      "short_url":"https://nyti.ms/2j4Fu4H"
    },
    {
-      "web_url":"https://www.nytimes.com/1988/09/18/sports/the-seoul-olympics-sports-of-the-times-up-north-a-different-opening-ceremony.html",
-      "snippet":"LEAD: Across the valley of green rice fields, jarring music clanged from the huge loudspeakers in Kijongdong, the small North Korean village within the DMZ, the demilitarized zone along the 151-mile border. Near the Bridge of No Return on this sun...",
-      "print_page":"3",
-      "blog":{
-
-      },
-      "source":"The New York Times",
-      "multimedia":[
+      "section":"World",
+      "subsection":"Asia Pacific",
+      "title":"Assault in Taj Mahal Country Shakes India’s Tourist Trade",
+      "abstract":"An attack on a Swiss couple has increased anxieties in an area whose monuments, left by the Muslim Mughals, displease some powerful Hindu nationalists.",
+      "url":"https://www.nytimes.com/2017/11/06/world/asia/taj-mahal-assault-tourism.html",
+      "byline":"By KAI SCHULTZ and SUHASINI RAJ",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T00:31:13-05:00",
+      "created_date":"2017-11-06T00:31:13-05:00",
+      "published_date":"2017-11-06T00:31:13-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Taj Mahal",
+         "Travel and Vacations",
+         "Assaults",
+         "Monuments and Memorials (Structures)",
+         "Hinduism"
+      ],
+      "org_facet":[
+         "Bharatiya Janata Party"
+      ],
+      "per_facet":[
 
       ],
-      "headline":{
-         "main":"THE SEOUL OLYMPICS: Sports of The Times; Up North, a Different Opening Ceremony"
-      },
-      "keywords":[
+      "geo_facet":[
+         "Agra (India)",
+         "Uttar Pradesh State (India)",
+         "Fatehpur Sikri (India)"
+      ],
+      "multimedia":[
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"creative_works",
-            "value":"SPORTS OF THE TIMES (TIMES COLUMN)"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07tajmahal-sub-1/07tajmahal-sub-1-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Taj Mahal in Agra, India, in 2012. Some Hindu nationalists have denounced the Muslim monument as built by “traitors” who “wanted to wipe out Hindus.”",
+            "copyright":"Pawan Sharma/Associated Press"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"glocations",
-            "value":"SOUTH KOREA"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07tajmahal-sub-1/07tajmahal-sub-1-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Taj Mahal in Agra, India, in 2012. Some Hindu nationalists have denounced the Muslim monument as built by “traitors” who “wanted to wipe out Hindus.”",
+            "copyright":"Pawan Sharma/Associated Press"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"glocations",
-            "value":"NORTH KOREA"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07tajmahal-sub-1/07tajmahal-sub-1-articleInline.jpg",
+            "format":"Normal",
+            "height":106,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Taj Mahal in Agra, India, in 2012. Some Hindu nationalists have denounced the Muslim monument as built by “traitors” who “wanted to wipe out Hindus.”",
+            "copyright":"Pawan Sharma/Associated Press"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"glocations",
-            "value":"PANMUNJOM (KOREA)"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07tajmahal-sub-1/07tajmahal-sub-1-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Taj Mahal in Agra, India, in 2012. Some Hindu nationalists have denounced the Muslim monument as built by “traitors” who “wanted to wipe out Hindus.”",
+            "copyright":"Pawan Sharma/Associated Press"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"OLYMPIC GAMES (1988)"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07tajmahal-sub-1/07tajmahal-sub-1-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1285,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Taj Mahal in Agra, India, in 2012. Some Hindu nationalists have denounced the Muslim monument as built by “traitors” who “wanted to wipe out Hindus.”",
+            "copyright":"Pawan Sharma/Associated Press"
          }
       ],
-      "pub_date":"1988-09-18T00:00:00Z",
-      "document_type":"article",
-      "new_desk":"Sports Desk",
-      "byline":{
-         "original":"By DAVE ANDERSON"
-      },
-      "type_of_material":"News",
-      "_id":"4fd1a0278eb7c8105d6b418e",
-      "word_count":1092,
-      "score":1.4440686
+      "short_url":"https://nyti.ms/2j4StTV"
    },
    {
-      "web_url":"https://www.nytimes.com/1988/09/18/sports/the-seoul-olympics-roundup-us-men-s-volleyball-team-overpowers-japan.html",
-      "snippet":"LEAD: The United States men's volleyball team kept its unbeaten string intact against Japan today as the Americans opened their quest for a second consecutive Olympic title.",
-      "print_page":"2",
-      "blog":{
-
-      },
-      "source":"The New York Times",
-      "multimedia":[
+      "section":"World",
+      "subsection":"Europe",
+      "title":"As Wild Salmon Decline, Norway Pressures Its Giant Fish Farms",
+      "abstract":"New rules to combat sea lice have angered Norway’s important aquaculture industry. But environmental groups want to go much further.",
+      "url":"https://www.nytimes.com/2017/11/06/world/europe/salmon-norway-fish-farms.html",
+      "byline":"By STEPHEN CASTLE",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T11:22:04-05:00",
+      "created_date":"2017-11-06T11:22:04-05:00",
+      "published_date":"2017-11-06T11:22:04-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Fish Farming",
+         "Salmon",
+         "Fish and Other Marine Life",
+         "vis-photo"
+      ],
+      "org_facet":[
 
       ],
-      "headline":{
-         "main":"THE SEOUL OLYMPICS: Roundup; U.S. MEN'S VOLLEYBALL TEAM OVERPOWERS JAPAN"
-      },
-      "keywords":[
+      "per_facet":[
+
+      ],
+      "geo_facet":[
+         "Norway"
+      ],
+      "multimedia":[
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"BOXING"
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06Salmon6/12Salmon6-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Fish farming helped Norway produce around 1.18 million metric tons of salmon last year.",
+            "copyright":"Sergey Ponomarev for The New York Times"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"OLYMPIC GAMES (1988)"
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06Salmon6/12Salmon6-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Fish farming helped Norway produce around 1.18 million metric tons of salmon last year.",
+            "copyright":"Sergey Ponomarev for The New York Times"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"TAEKWONDO"
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06Salmon6/12Salmon6-articleInline.jpg",
+            "format":"Normal",
+            "height":127,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Fish farming helped Norway produce around 1.18 million metric tons of salmon last year.",
+            "copyright":"Sergey Ponomarev for The New York Times"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"SHOOTING (SPORT)"
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06Salmon6/12Salmon6-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Fish farming helped Norway produce around 1.18 million metric tons of salmon last year.",
+            "copyright":"Sergey Ponomarev for The New York Times"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"SOCCER"
-         },
-         {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"BICYCLES"
-         },
-         {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"SUMMER GAMES (OLYMPICS)"
-         },
-         {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"VOLLEYBALL"
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06Salmon6/12Salmon6-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1366,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Fish farming helped Norway produce around 1.18 million metric tons of salmon last year.",
+            "copyright":"Sergey Ponomarev for The New York Times"
          }
       ],
-      "pub_date":"1988-09-18T00:00:00Z",
-      "document_type":"article",
-      "new_desk":"Sports Desk",
-      "byline":{
-         "original":"AP"
-      },
-      "type_of_material":"News",
-      "_id":"4fd182528eb7c8105d67f080",
-      "word_count":1233,
-      "score":1.7968081
+      "short_url":"https://nyti.ms/2hKHefW"
    },
    {
-      "web_url":"https://www.nytimes.com/1988/09/18/sports/the-seoul-olympics-sports-of-the-times-korea-s-home-grown-sport.html",
-      "snippet":"LEAD: On the first day of these Summer Games, the old was never very far from the new: a state-of-the-art stadium and men and maidens performing an ancient purification ritual on the lush grass during the opening ceremony.",
-      "print_page":"2",
-      "blog":{
-
-      },
-      "source":"The New York Times",
-      "multimedia":[
+      "section":"World",
+      "subsection":"Middle East",
+      "title":"Saudi Arabia Charges Iran With ‘Act of War,’ Raising Threat of Military Clash",
+      "abstract":"Saudi Arabia’s claim that a missile fired from Yemen was provided by Iran escalates tensions between the regional powers, who are fighting proxy wars in Yemen, Syria and Iraq.",
+      "url":"https://www.nytimes.com/2017/11/06/world/middleeast/yemen-saudi-iran-missile.html",
+      "byline":"By DAVID D. KIRKPATRICK",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T18:42:26-05:00",
+      "created_date":"2017-11-06T07:12:51-05:00",
+      "published_date":"2017-11-06T07:12:51-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
 
       ],
-      "headline":{
-         "main":"THE SEOUL OLYMPICS: Sports of The Times; Korea's Home-Grown Sport"
-      },
-      "keywords":[
+      "org_facet":[
+         "Houthis"
+      ],
+      "per_facet":[
+         "Hadi, Abdu Rabbu Mansour"
+      ],
+      "geo_facet":[
+         "Riyadh (Saudi Arabia)",
+         "Sana (Yemen)",
+         "Saudi Arabia",
+         "Yemen",
+         "Iran"
+      ],
+      "multimedia":[
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"creative_works",
-            "value":"SPORTS OF THE TIMES (TIMES COLUMN)"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07saudi/07saudi-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"A still image taken from a video distributed on Sunday by Yemen&rsquo;s pro-Houthi Al Masirah television station, said to show the launching of a ballistic missile aimed at an airport in Riyadh, the capital of Saudi Arabia.",
+            "copyright":"Houthi Military Media Unit, via Reuters"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"OLYMPIC GAMES (1988)"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07saudi/07saudi-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"A still image taken from a video distributed on Sunday by Yemen&rsquo;s pro-Houthi Al Masirah television station, said to show the launching of a ballistic missile aimed at an airport in Riyadh, the capital of Saudi Arabia.",
+            "copyright":"Houthi Military Media Unit, via Reuters"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"TAEKWONDO"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07saudi/07saudi-articleInline.jpg",
+            "format":"Normal",
+            "height":109,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"A still image taken from a video distributed on Sunday by Yemen&rsquo;s pro-Houthi Al Masirah television station, said to show the launching of a ballistic missile aimed at an airport in Riyadh, the capital of Saudi Arabia.",
+            "copyright":"Houthi Military Media Unit, via Reuters"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07saudi/07saudi-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"A still image taken from a video distributed on Sunday by Yemen&rsquo;s pro-Houthi Al Masirah television station, said to show the launching of a ballistic missile aimed at an airport in Riyadh, the capital of Saudi Arabia.",
+            "copyright":"Houthi Military Media Unit, via Reuters"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07saudi/07saudi-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1171,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"A still image taken from a video distributed on Sunday by Yemen&rsquo;s pro-Houthi Al Masirah television station, said to show the launching of a ballistic missile aimed at an airport in Riyadh, the capital of Saudi Arabia.",
+            "copyright":"Houthi Military Media Unit, via Reuters"
          }
       ],
-      "pub_date":"1988-09-18T00:00:00Z",
-      "document_type":"article",
-      "new_desk":"Sports Desk",
-      "byline":{
-         "original":"By GEORGE VECSEY"
-      },
-      "type_of_material":"News",
-      "_id":"4fd19c988eb7c8105d6ade8a",
-      "word_count":1003,
-      "score":1.4374465
+      "short_url":"https://nyti.ms/2j3oyeJ"
    },
    {
-      "web_url":"https://www.nytimes.com/1988/09/18/sports/the-seoul-olympics-tv-sports-nbc-s-coverage-captures-the-color-but-not-the-fun.html",
-      "snippet":"LEAD: In its zeal to Get That Story, along with its phobia of seeming like a flag-waver, NBC-TV opened its Olympic coverage by combining the joy of the event with a certain heavy portentousness.",
-      "print_page":"4",
-      "blog":{
-
-      },
-      "source":"The New York Times",
-      "multimedia":[
-
+      "section":"World",
+      "subsection":"",
+      "title":"From Utah, Secretive Help for a Russian Oligarch and His Jet",
+      "abstract":"Records leaked from an offshore law firm show how the wealthy elite sidestep prohibitions on foreigners registering private planes in the United States.",
+      "url":"https://www.nytimes.com/2017/11/06/world/bank-of-utah-leonid-mikhelson.html",
+      "byline":"By MIKE McINTIRE",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T20:11:27-05:00",
+      "created_date":"2017-11-06T13:00:59-05:00",
+      "published_date":"2017-11-06T13:00:59-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Airlines and Airplanes",
+         "Banking and Financial Institutions",
+         "Embargoes and Sanctions",
+         "Tax Shelters",
+         "Panama Papers",
+         "Private Aircraft"
       ],
-      "headline":{
-         "main":"THE SEOUL OLYMPICS: TV Sports; NBC's Coverage Captures the Color, but Not the Fun"
-      },
-      "keywords":[
+      "org_facet":[
+         "Bank of Utah",
+         "Ernst & Young",
+         "Federal Aviation Administration",
+         "International Consortium of Investigative Journalists",
+         "Mossack Fonseca & Co",
+         "Novatek",
+         "Sibur",
+         "Wells Fargo & Company",
+         "Appleby Global Group Services Ltd"
+      ],
+      "per_facet":[
+         "Mikhelson, Leonid V",
+         "Putin, Vladimir V",
+         "Timchenko, Gennady N"
+      ],
+      "geo_facet":[
+         "Bermuda",
+         "Isle of Man",
+         "Russia",
+         "United States"
+      ],
+      "multimedia":[
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"organizations",
-            "value":"NATIONAL BROADCASTING CO"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07Utah1/07Utah1-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Leonid Mikhelson, Russia&rsquo;s richest oligarch, used Bank of Utah as a stand-in so he could register his Gulfstream jet in the United States, which requires citizenship or residency.",
+            "copyright":"Sergey Chervotkin"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"OLYMPIC GAMES (1988)"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07Utah1/07Utah1-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Leonid Mikhelson, Russia&rsquo;s richest oligarch, used Bank of Utah as a stand-in so he could register his Gulfstream jet in the United States, which requires citizenship or residency.",
+            "copyright":"Sergey Chervotkin"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"TELEVISION"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07Utah1/merlin_129239465_f9fcd9a6-fa6e-49d1-9548-717ab6dacadd-articleInline.jpg",
+            "format":"Normal",
+            "height":127,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Leonid Mikhelson, Russia&rsquo;s richest oligarch, used Bank of Utah as a stand-in so he could register his Gulfstream jet in the United States, which requires citizenship or residency.",
+            "copyright":"Sergey Chervotkin"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"SUMMER GAMES (OLYMPICS)"
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07Utah1/07Utah1-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Leonid Mikhelson, Russia&rsquo;s richest oligarch, used Bank of Utah as a stand-in so he could register his Gulfstream jet in the United States, which requires citizenship or residency.",
+            "copyright":"Sergey Chervotkin"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07Utah1/merlin_129239465_f9fcd9a6-fa6e-49d1-9548-717ab6dacadd-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1365,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Leonid Mikhelson, Russia&rsquo;s richest oligarch, used Bank of Utah as a stand-in so he could register his Gulfstream jet in the United States, which requires citizenship or residency.",
+            "copyright":"Sergey Chervotkin"
          }
       ],
-      "pub_date":"1988-09-18T00:00:00Z",
-      "document_type":"article",
-      "new_desk":"Sports Desk",
-      "byline":{
-         "original":"By GERALD ESKENAZI"
-      },
-      "type_of_material":"News",
-      "_id":"4fd1a0278eb7c8105d6b41a0",
-      "word_count":863,
-      "score":1.4299812
+      "short_url":"https://nyti.ms/2j8Re6g"
    },
    {
-      "web_url":"https://www.nytimes.com/1988/09/18/sports/sports-people-comings-and-goings.html",
-      "snippet":"LEAD: He lost the United States Open and the No. 1 ranking he had held for 156 weeks, but Ivan Lendl, who is now ranked No. 2 behind Mats Willander, cited another ailment in withdrawing from this week's Volvo-Los Angeles tournament: an injury to h...",
-      "print_page":"12",
-      "blog":{
+      "section":"World",
+      "subsection":"",
+      "title":"Paradise Papers Shine Light on Where the Elite Hide Their Money",
+      "abstract":"Millions of leaked files center on an offshore law firm that has helped obscure the wealth of multinational companies and the superrich.",
+      "url":"https://www.nytimes.com/2017/11/05/world/paradise-papers.html",
+      "byline":"By MICHAEL FORSYTHE",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T14:43:37-05:00",
+      "created_date":"2017-11-05T13:00:17-05:00",
+      "published_date":"2017-11-05T13:00:17-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Tax Shelters",
+         "Panama Papers"
+      ],
+      "org_facet":[
+         "Mossack Fonseca & Co",
+         "Suddeutsche Zeitung",
+         "International Consortium of Investigative Journalists",
+         "Appleby Global Group Services Ltd"
+      ],
+      "per_facet":[
 
-      },
-      "source":"The New York Times",
+      ],
+      "geo_facet":[
+         "Bermuda"
+      ],
       "multimedia":[
-
-      ],
-      "headline":{
-         "main":"Comings and Goings",
-         "kicker":"SPORTS PEOPLE"
-      },
-      "keywords":[
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"creative_works",
-            "value":"VOLVO-LOS ANGELES TENNIS TOURNAMENT"
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06Offshore1/06Offshore1-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The offices of Appleby, an offshore law firm, in Hamilton, Bermuda. The company is at the center of leaked documents being called the Paradise Papers.",
+            "copyright":"Meredith Andrews for The New York Times"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"persons",
-            "value":"LENDL, IVAN"
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06Offshore1/06Offshore1-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The offices of Appleby, an offshore law firm, in Hamilton, Bermuda. The company is at the center of leaked documents being called the Paradise Papers.",
+            "copyright":"Meredith Andrews for The New York Times"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"TENNIS"
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06Offshore1/06Offshore1-articleInline.jpg",
+            "format":"Normal",
+            "height":148,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The offices of Appleby, an offshore law firm, in Hamilton, Bermuda. The company is at the center of leaked documents being called the Paradise Papers.",
+            "copyright":"Meredith Andrews for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06Offshore1/06Offshore1-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The offices of Appleby, an offshore law firm, in Hamilton, Bermuda. The company is at the center of leaked documents being called the Paradise Papers.",
+            "copyright":"Meredith Andrews for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06Offshore1/06Offshore1-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1595,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The offices of Appleby, an offshore law firm, in Hamilton, Bermuda. The company is at the center of leaked documents being called the Paradise Papers.",
+            "copyright":"Meredith Andrews for The New York Times"
          }
-      ],
-      "pub_date":"1988-09-18T00:00:00Z",
-      "document_type":"article",
-      "new_desk":"Sports Desk",
-      "type_of_material":"News",
-      "_id":"4fd19c988eb7c8105d6ade9d",
-      "word_count":200,
-      "score":0.27181584
+      ]
    },
    {
-      "web_url":"https://www.nytimes.com/1988/09/18/sports/the-seoul-olympics-china-wins-a-gold-in-diving.html",
-      "snippet":"LEAD: Michele Mitchell and Wendy Lian Williams of the United States put off the projected domination of 10-meter platform diving by the Chinese for at least another four years today as they took the Olympic silver and bronze medals behind Xu Yanme...",
-      "print_page":"1",
-      "blog":{
+      "section":"Technology",
+      "subsection":"",
+      "title":"Saudi Money Fuels the Tech Industry. It’s Time to Ask Why.",
+      "abstract":"As the world’s moneyed princes, dictators and oligarchs look for more places to park their billions, mountains of money may be coming to Silicon Valley.",
+      "url":"https://www.nytimes.com/2017/11/06/technology/unsavory-sources-money-fueling-tech.html",
+      "byline":"By FARHAD MANJOO",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T22:32:40-05:00",
+      "created_date":"2017-11-06T19:52:05-05:00",
+      "published_date":"2017-11-06T19:52:05-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Computers and the Internet",
+         "Politics and Government",
+         "Venture Capital",
+         "Human Rights and Human Rights Violations"
+      ],
+      "org_facet":[
+         "DST Global Solutions",
+         "Kingdom Holding",
+         "SOFTBANK Corporation"
+      ],
+      "per_facet":[
 
-      },
-      "source":"The New York Times",
+      ],
+      "geo_facet":[
+         "Silicon Valley (Calif)",
+         "Russia",
+         "Saudi Arabia"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/us/07STATE1/07STATE1-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Crown Prince Mohammed bin Salman, second from left, and Masayoshi Son of Soft Bank, third from left, at a conference last month in Riyadh, Saudi Arabia.",
+            "copyright":"Fayed Nureldine/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/us/07STATE1/07STATE1-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Crown Prince Mohammed bin Salman, second from left, and Masayoshi Son of Soft Bank, third from left, at a conference last month in Riyadh, Saudi Arabia.",
+            "copyright":"Fayed Nureldine/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/us/07STATE1/07STATE1-articleInline.jpg",
+            "format":"Normal",
+            "height":127,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Crown Prince Mohammed bin Salman, second from left, and Masayoshi Son of Soft Bank, third from left, at a conference last month in Riyadh, Saudi Arabia.",
+            "copyright":"Fayed Nureldine/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/us/07STATE1/07STATE1-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Crown Prince Mohammed bin Salman, second from left, and Masayoshi Son of Soft Bank, third from left, at a conference last month in Riyadh, Saudi Arabia.",
+            "copyright":"Fayed Nureldine/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/us/07STATE1/07STATE1-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1272,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Crown Prince Mohammed bin Salman, second from left, and Masayoshi Son of Soft Bank, third from left, at a conference last month in Riyadh, Saudi Arabia.",
+            "copyright":"Fayed Nureldine/Agence France-Presse — Getty Images"
+         }
+      ],
+      "short_url":"https://nyti.ms/2j8qvq5"
+   },
+   {
+      "section":"World",
+      "subsection":"Middle East",
+      "title":"In Egypt, a Contender Emerges to Challenge President Sisi",
+      "abstract":"Khaled Ali, a human rights lawyer who rose to prominence last year, vows to run against a president whose government has jailed and silenced most opponents.",
+      "url":"https://www.nytimes.com/2017/11/06/world/middleeast/egypt-sisi-election-opponent.html",
+      "byline":"By DECLAN WALSH",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T21:22:45-05:00",
+      "created_date":"2017-11-06T19:41:59-05:00",
+      "published_date":"2017-11-06T19:41:59-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Elections"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+         "Sisi, Abdel Fattah el-",
+         "Ali, Khaled"
+      ],
+      "geo_facet":[
+         "Egypt"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07egypt1/07egypt1-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Khaled Ali, a human rights lawyer, announced his candidacy in Egypt’s 2018 presidential election at a news conference in Cairo on Monday.",
+            "copyright":"Sima Diab for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07egypt1/07egypt1-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Khaled Ali, a human rights lawyer, announced his candidacy in Egypt’s 2018 presidential election at a news conference in Cairo on Monday.",
+            "copyright":"Sima Diab for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07egypt1/07egypt1-articleInline.jpg",
+            "format":"Normal",
+            "height":127,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Khaled Ali, a human rights lawyer, announced his candidacy in Egypt’s 2018 presidential election at a news conference in Cairo on Monday.",
+            "copyright":"Sima Diab for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07egypt1/07egypt1-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Khaled Ali, a human rights lawyer, announced his candidacy in Egypt’s 2018 presidential election at a news conference in Cairo on Monday.",
+            "copyright":"Sima Diab for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07egypt1/07egypt1-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1365,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Khaled Ali, a human rights lawyer, announced his candidacy in Egypt’s 2018 presidential election at a news conference in Cairo on Monday.",
+            "copyright":"Sima Diab for The New York Times"
+         }
+      ],
+      "short_url":"https://nyti.ms/2hNQQ9u"
+   },
+   {
+      "section":"Briefing",
+      "subsection":"",
+      "title":"Texas, Japan, Saudi Arabia: Your Monday Evening Briefing",
+      "abstract":"Here’s what you need to know at the end of the day.",
+      "url":"https://www.nytimes.com/2017/11/06/briefing/texas-japan-saudi-arabia.html",
+      "byline":"By KAREN ZRAICK and DAVID SCULL",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T18:26:30-05:00",
+      "created_date":"2017-11-06T18:06:09-05:00",
+      "published_date":"2017-11-06T18:06:09-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+
+      ],
+      "geo_facet":[
+
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/briefing/06EVENINGbriefing-promo/06EVENINGbriefing-promo-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":""
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/briefing/06EVENINGbriefing-promo/06EVENINGbriefing-promo-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":""
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/briefing/06EVENINGbriefing-promo/06EVENINGbriefing-promo-articleInline.jpg",
+            "format":"Normal",
+            "height":129,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":""
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/briefing/06EVENINGbriefing-promo/06EVENINGbriefing-promo-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":""
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/briefing/06EVENINGbriefing-promo/06EVENINGbriefing-promo-superJumbo-v2.jpg",
+            "format":"superJumbo",
+            "height":188,
+            "width":624,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":""
+         }
+      ],
+      "short_url":"https://nyti.ms/2j4c32r"
+   },
+   {
+      "section":"U.S.",
+      "subsection":"Politics",
+      "title":"Commerce Secretary May Sell Investment in Russia-Linked Company",
+      "abstract":"Wilbur Ross, the commerce secretary, responded after business ties to Vladimir V. Putin’s inner circle were reported in coverage of leaked files called the Paradise Papers.",
+      "url":"https://www.nytimes.com/2017/11/06/us/politics/wilbur-ross-russia.html",
+      "byline":"By MIKE McINTIRE",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T18:48:13-05:00",
+      "created_date":"2017-11-06T17:39:54-05:00",
+      "published_date":"2017-11-06T17:39:54-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+
+      ],
+      "org_facet":[
+         "Appleby Global Group Services Ltd",
+         "Commerce Department",
+         "Navigator Holdings Ltd",
+         "Sibur",
+         "International Consortium of Investigative Journalists",
+         "Suddeutsche Zeitung"
+      ],
+      "per_facet":[
+         "Putin, Vladimir V",
+         "Ross, Wilbur L Jr",
+         "Shamalov, Kirill N",
+         "Timchenko, Gennady N",
+         "Trump, Donald J"
+      ],
+      "geo_facet":[
+         "Bermuda",
+         "Russia",
+         "United States"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07Ross1/07Ross1-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Wilbur Ross, the commerce secretary, said he would “probably not” keep his investment in a company with ties to Russian President Vladimir V. Putin’s inner circle.",
+            "copyright":"Andy Rain/European Pressphoto Agency"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07Ross1/07Ross1-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Wilbur Ross, the commerce secretary, said he would “probably not” keep his investment in a company with ties to Russian President Vladimir V. Putin’s inner circle.",
+            "copyright":"Andy Rain/European Pressphoto Agency"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07Ross1/merlin_129764945_1491f45a-2446-4f35-a39d-d05ebc9a57b0-articleInline.jpg",
+            "format":"Normal",
+            "height":118,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Wilbur Ross, the commerce secretary, said he would “probably not” keep his investment in a company with ties to Russian President Vladimir V. Putin’s inner circle.",
+            "copyright":"Andy Rain/European Pressphoto Agency"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07Ross1/07Ross1-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Wilbur Ross, the commerce secretary, said he would “probably not” keep his investment in a company with ties to Russian President Vladimir V. Putin’s inner circle.",
+            "copyright":"Andy Rain/European Pressphoto Agency"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07Ross1/merlin_129764945_1491f45a-2446-4f35-a39d-d05ebc9a57b0-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1270,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Wilbur Ross, the commerce secretary, said he would “probably not” keep his investment in a company with ties to Russian President Vladimir V. Putin’s inner circle.",
+            "copyright":"Andy Rain/European Pressphoto Agency"
+         }
+      ],
+      "short_url":"https://nyti.ms/2hMctaf"
+   },
+   {
+      "section":"World",
+      "subsection":"Middle East",
+      "title":"British Foreign Secretary Accused of Worsening Briton’s Plight in Iran",
+      "abstract":"The employer and family of a jailed British citizen of Iranian descent want Mr. Johnson to correct a misleading statement about her.",
+      "url":"https://www.nytimes.com/2017/11/06/world/middleeast/britain-iran-boris-johnson-zaghari-ratcliffe.html",
+      "byline":"By STEPHEN CASTLE",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T22:07:13-05:00",
+      "created_date":"2017-11-06T17:20:10-05:00",
+      "published_date":"2017-11-06T17:20:10-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Political Prisoners"
+      ],
+      "org_facet":[
+         "Thomson Reuters Foundation"
+      ],
+      "per_facet":[
+         "Zaghari-Ratcliffe, Nazanin",
+         "Johnson, Boris"
+      ],
+      "geo_facet":[
+         "Iran",
+         "Great Britain"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07britain1/07britain1-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Foreign Secretary Boris Johnson of Britain in London last week. He has been accused by supporters of a British woman of Iranian descent held in Iran of misspeaking about her activities there, inadvertently creating new risks for her.",
+            "copyright":"Stefan Rousseau/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07britain1/07britain1-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Foreign Secretary Boris Johnson of Britain in London last week. He has been accused by supporters of a British woman of Iranian descent held in Iran of misspeaking about her activities there, inadvertently creating new risks for her.",
+            "copyright":"Stefan Rousseau/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07britain1/07britain1-articleInline.jpg",
+            "format":"Normal",
+            "height":127,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Foreign Secretary Boris Johnson of Britain in London last week. He has been accused by supporters of a British woman of Iranian descent held in Iran of misspeaking about her activities there, inadvertently creating new risks for her.",
+            "copyright":"Stefan Rousseau/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07britain1/07britain1-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Foreign Secretary Boris Johnson of Britain in London last week. He has been accused by supporters of a British woman of Iranian descent held in Iran of misspeaking about her activities there, inadvertently creating new risks for her.",
+            "copyright":"Stefan Rousseau/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07britain1/07britain1-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1365,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Foreign Secretary Boris Johnson of Britain in London last week. He has been accused by supporters of a British woman of Iranian descent held in Iran of misspeaking about her activities there, inadvertently creating new risks for her.",
+            "copyright":"Stefan Rousseau/Agence France-Presse — Getty Images"
+         }
+      ],
+      "short_url":"https://nyti.ms/2j6hs98"
+   },
+   {
+      "section":"World",
+      "subsection":"Africa",
+      "title":"Mugabe Fires Vice President, Clearing Path to Power for Wife",
+      "abstract":"The president of Zimbabwe, Robert G. Mugabe, the world’s oldest head of state, accused his vice president, Emmerson Mnangagwa, of disloyalty.",
+      "url":"https://www.nytimes.com/2017/11/06/world/africa/zimbabwe-mugabe-mnangagwa.html",
+      "byline":"By JEFFREY MOYO",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T16:11:59-05:00",
+      "created_date":"2017-11-06T16:11:59-05:00",
+      "published_date":"2017-11-06T16:11:59-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Politics and Government"
+      ],
+      "org_facet":[
+         "Zimbabwe African National Union-Patriotic Front (ZANU-PF)"
+      ],
+      "per_facet":[
+         "Mugabe, Robert",
+         "Mugabe, Grace"
+      ],
+      "geo_facet":[
+         "Zimbabwe"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07zimbabwe1/07zimbabwe1-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Emmerson Mnangagwa, who was dismissed as vice president of Zimbabwe on Monday, in Harare last week.",
+            "copyright":"Aaron Ufumeli/European Pressphoto Agency"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07zimbabwe1/07zimbabwe1-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Emmerson Mnangagwa, who was dismissed as vice president of Zimbabwe on Monday, in Harare last week.",
+            "copyright":"Aaron Ufumeli/European Pressphoto Agency"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07zimbabwe1/07zimbabwe1-articleInline.jpg",
+            "format":"Normal",
+            "height":127,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Emmerson Mnangagwa, who was dismissed as vice president of Zimbabwe on Monday, in Harare last week.",
+            "copyright":"Aaron Ufumeli/European Pressphoto Agency"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07zimbabwe1/07zimbabwe1-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Emmerson Mnangagwa, who was dismissed as vice president of Zimbabwe on Monday, in Harare last week.",
+            "copyright":"Aaron Ufumeli/European Pressphoto Agency"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07zimbabwe1/07zimbabwe1-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1365,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Emmerson Mnangagwa, who was dismissed as vice president of Zimbabwe on Monday, in Harare last week.",
+            "copyright":"Aaron Ufumeli/European Pressphoto Agency"
+         }
+      ],
+      "short_url":"https://nyti.ms/2hMTgFw"
+   },
+   {
+      "section":"N.Y. / Region",
+      "subsection":"",
+      "title":"After Terror Attack, Uzbek Community Faces Unwanted Attention, Again",
+      "abstract":"When an Uzbek man was accused in the deadly attack in Manhattan, fellow immigrants in Brooklyn shook their heads in shame and disgust.",
+      "url":"https://www.nytimes.com/2017/11/06/nyregion/a-growing-uzbek-community-confronts-unwanted-attention-again.html",
+      "byline":"By LIZ ROBBINS",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T16:32:52-05:00",
+      "created_date":"2017-11-06T15:47:16-05:00",
+      "published_date":"2017-11-06T15:47:16-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Immigration and Emigration",
+         "Uzbeks (Ethnic Group)",
+         "Visas",
+         "Terrorism",
+         "Muslims and Islam"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+
+      ],
+      "geo_facet":[
+         "Brighton Beach (Brooklyn, NY)"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/nyregion/06nyuzbeks1/06nyuzbeks1-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Tashkent Supermarket in the Brighton Beach neighborhood of Brooklyn opened five months ago and serves a growing community of Uzbeks.",
+            "copyright":"Mark Abramson for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/nyregion/06nyuzbeks1/06nyuzbeks1-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Tashkent Supermarket in the Brighton Beach neighborhood of Brooklyn opened five months ago and serves a growing community of Uzbeks.",
+            "copyright":"Mark Abramson for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/nyregion/06nyuzbeks1/06nyuzbeks1-articleInline.jpg",
+            "format":"Normal",
+            "height":127,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Tashkent Supermarket in the Brighton Beach neighborhood of Brooklyn opened five months ago and serves a growing community of Uzbeks.",
+            "copyright":"Mark Abramson for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/nyregion/06nyuzbeks1/06nyuzbeks1-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Tashkent Supermarket in the Brighton Beach neighborhood of Brooklyn opened five months ago and serves a growing community of Uzbeks.",
+            "copyright":"Mark Abramson for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/nyregion/06nyuzbeks1/06nyuzbeks1-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1365,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Tashkent Supermarket in the Brighton Beach neighborhood of Brooklyn opened five months ago and serves a growing community of Uzbeks.",
+            "copyright":"Mark Abramson for The New York Times"
+         }
+      ]
+   },
+   {
+      "section":"World",
+      "subsection":"Africa",
+      "title":"Liberia’s Presidential Runoff Is Delayed",
+      "abstract":"Liberia’s Supreme Court halted the runoff between the top two finishers, set for Tuesday, until fraud complaints by the candidate in third place were assessed.",
+      "url":"https://www.nytimes.com/2017/11/06/world/africa/liberia-election-runoff-delayed.html",
+      "byline":"By HELENE COOPER",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T14:10:24-05:00",
+      "created_date":"2017-11-06T14:10:24-05:00",
+      "published_date":"2017-11-06T14:10:24-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Elections"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+         "Weah, George",
+         "Boakai, Joseph"
+      ],
+      "geo_facet":[
+         "Liberia"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07liberia1/07liberia1-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Charles Brumskine, center, of Liberia’s opposition Liberty Party, after hearings last week at the elections commission in Monrovia.",
+            "copyright":"Ahmed Jallanzo/European Pressphoto Agency"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07liberia1/07liberia1-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Charles Brumskine, center, of Liberia’s opposition Liberty Party, after hearings last week at the elections commission in Monrovia.",
+            "copyright":"Ahmed Jallanzo/European Pressphoto Agency"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07liberia1/07liberia1-articleInline.jpg",
+            "format":"Normal",
+            "height":127,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Charles Brumskine, center, of Liberia’s opposition Liberty Party, after hearings last week at the elections commission in Monrovia.",
+            "copyright":"Ahmed Jallanzo/European Pressphoto Agency"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07liberia1/07liberia1-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Charles Brumskine, center, of Liberia’s opposition Liberty Party, after hearings last week at the elections commission in Monrovia.",
+            "copyright":"Ahmed Jallanzo/European Pressphoto Agency"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07liberia1/07liberia1-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1365,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Charles Brumskine, center, of Liberia’s opposition Liberty Party, after hearings last week at the elections commission in Monrovia.",
+            "copyright":"Ahmed Jallanzo/European Pressphoto Agency"
+         }
+      ],
+      "short_url":"https://nyti.ms/2j79uN7"
+   },
+   {
+      "section":"World",
+      "subsection":"",
+      "title":"After a Tax Crackdown, Apple Found a New Shelter for Its Profits",
+      "abstract":"The tech giant has found a tax haven in the island of Jersey, leaving billions of dollars untouched by the United States, leaked documents reveal.",
+      "url":"https://www.nytimes.com/2017/11/06/world/apple-taxes-jersey.html",
+      "byline":"By JESSE DRUCKER and SIMON BOWERS",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T19:41:12-05:00",
+      "created_date":"2017-11-06T13:00:53-05:00",
+      "published_date":"2017-11-06T13:00:53-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Tax Shelters",
+         "Corporate Taxes"
+      ],
+      "org_facet":[
+         "Apple Inc",
+         "International Consortium of Investigative Journalists",
+         "Suddeutsche Zeitung",
+         "Appleby Global Group Services Ltd"
+      ],
+      "per_facet":[
+         "Cook, Timothy D"
+      ],
+      "geo_facet":[
+         "Ireland",
+         "Jersey, Isle of"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/us/07apple-alpha/07apple-alpha-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":"Andrew Testa for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/us/07apple-alpha/07apple-alpha-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":"Andrew Testa for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/us/07apple-alpha/07apple-alpha-articleInline.jpg",
+            "format":"Normal",
+            "height":127,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":"Andrew Testa for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/us/07apple-alpha/07apple-alpha-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":"Andrew Testa for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/us/07apple-alpha/07apple-alpha-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1368,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":"Andrew Testa for The New York Times"
+         }
+      ],
+      "short_url":"https://nyti.ms/2hMV2Gw"
+   },
+   {
+      "section":"World",
+      "subsection":"Europe",
+      "title":"Berlusconi’s Comeback Hopes Buoyed by Sicily Election Results",
+      "abstract":"Voters gave strong backing to center-right and populist parties, setting the stage for national elections next year.",
+      "url":"https://www.nytimes.com/2017/11/06/world/europe/sicily-election-berlusconi.html",
+      "byline":"By ELISABETTA POVOLEDO",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T18:39:37-05:00",
+      "created_date":"2017-11-06T11:58:51-05:00",
+      "published_date":"2017-11-06T11:58:51-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Politics and Government",
+         "Elections"
+      ],
+      "org_facet":[
+         "Five Star Movement (Italy)",
+         "Democratic Party (Italy)"
+      ],
+      "per_facet":[
+         "Berlusconi, Silvio",
+         "Renzi, Matteo"
+      ],
+      "geo_facet":[
+         "Sicily (Italy)"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07sicily/07sicily-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Silvio Berlusconi, in Catania, Italy, last week. The former prime minister managed to coalesce center-right and right-leaning parties into a formidable coalition in Sicilian elections, a feat he hopes to replicate on the national stage.",
+            "copyright":"Orietta Scardino/European Pressphoto Agency"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07sicily/07sicily-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Silvio Berlusconi, in Catania, Italy, last week. The former prime minister managed to coalesce center-right and right-leaning parties into a formidable coalition in Sicilian elections, a feat he hopes to replicate on the national stage.",
+            "copyright":"Orietta Scardino/European Pressphoto Agency"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07sicily/07sicily-articleInline.jpg",
+            "format":"Normal",
+            "height":127,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Silvio Berlusconi, in Catania, Italy, last week. The former prime minister managed to coalesce center-right and right-leaning parties into a formidable coalition in Sicilian elections, a feat he hopes to replicate on the national stage.",
+            "copyright":"Orietta Scardino/European Pressphoto Agency"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07sicily/07sicily-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Silvio Berlusconi, in Catania, Italy, last week. The former prime minister managed to coalesce center-right and right-leaning parties into a formidable coalition in Sicilian elections, a feat he hopes to replicate on the national stage.",
+            "copyright":"Orietta Scardino/European Pressphoto Agency"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/07/world/07sicily/07sicily-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1365,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Silvio Berlusconi, in Catania, Italy, last week. The former prime minister managed to coalesce center-right and right-leaning parties into a formidable coalition in Sicilian elections, a feat he hopes to replicate on the national stage.",
+            "copyright":"Orietta Scardino/European Pressphoto Agency"
+         }
+      ],
+      "short_url":"https://nyti.ms/2hKYIbN"
+   },
+   {
+      "section":"Travel",
+      "subsection":"",
+      "title":"Edwidge Danticat: Dawn After the Tempests",
+      "abstract":"The novelist Edwidge Danticat reflects on the devastation from Hurricanes Irma and Maria to many Caribbean islands whose economies rely on tourism.",
+      "url":"https://www.nytimes.com/2017/11/06/travel/edwidge-danticat-hurricane-irma-maria-tourist-grenada.html",
+      "byline":"By EDWIDGE DANTICAT",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T00:01:28-05:00",
+      "created_date":"2017-11-06T00:01:28-05:00",
+      "published_date":"2017-11-06T00:01:28-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Hurricane Maria (2017)",
+         "Travel and Vacations",
+         "Hurricane Irma (2017)",
+         "Edwidge Dandicat"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+
+      ],
+      "geo_facet":[
+         "Caribbean Area"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/12/travel/12DANDICAT/12DANDICAT-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":"Gaby D'Alessandro"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/12/travel/12DANDICAT/12DANDICAT-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":"Gaby D'Alessandro"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/12/travel/12DANDICAT/12DANDICAT-articleInline.jpg",
+            "format":"Normal",
+            "height":155,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":"Gaby D'Alessandro"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/12/travel/12DANDICAT/12DANDICAT-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":"Gaby D'Alessandro"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/12/travel/12DANDICAT/12DANDICAT-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1676,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":"Gaby D'Alessandro"
+         }
+      ],
+      "short_url":"https://nyti.ms/2j3EjSS"
+   },
+   {
+      "section":"Business Day",
+      "subsection":"",
+      "title":"Investors Worldwide Size Up Palace Intrigue in Oil-Rich Kingdom",
+      "abstract":"The arrests of four Saudi ministers and 11 princes could be the power play of a reformer. They also have the potential for great political tumult.",
+      "url":"https://www.nytimes.com/2017/11/05/business/saudi-arabia-arrests-investors.html",
+      "byline":"By CLIFFORD KRAUSS",
+      "item_type":"Article",
+      "updated_date":"2017-11-05T20:43:02-05:00",
+      "created_date":"2017-11-05T20:43:02-05:00",
+      "published_date":"2017-11-05T20:43:02-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Economic Conditions and Trends",
+         "Politics and Government",
+         "Foreign Investments"
+      ],
+      "org_facet":[
+         "Saudi Aramco"
+      ],
+      "per_facet":[
+         "Alwaleed bin Talal",
+         "Mohammed bin Salman (1985- )"
+      ],
+      "geo_facet":[
+         "Saudi Arabia"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/business/06SAUDIOIL/06SAUDIOIL-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The global business elite gathered at a conference two weeks ago in Riyadh, as Saudi Arabia courted their investments.",
+            "copyright":"Fayez Nureldine/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/business/06SAUDIOIL/06SAUDIOIL-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The global business elite gathered at a conference two weeks ago in Riyadh, as Saudi Arabia courted their investments.",
+            "copyright":"Fayez Nureldine/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/business/06SAUDIOIL/06SAUDIOIL-articleInline.jpg",
+            "format":"Normal",
+            "height":121,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The global business elite gathered at a conference two weeks ago in Riyadh, as Saudi Arabia courted their investments.",
+            "copyright":"Fayez Nureldine/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/business/06SAUDIOIL/06SAUDIOIL-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The global business elite gathered at a conference two weeks ago in Riyadh, as Saudi Arabia courted their investments.",
+            "copyright":"Fayez Nureldine/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/business/06SAUDIOIL/06SAUDIOIL-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1302,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The global business elite gathered at a conference two weeks ago in Riyadh, as Saudi Arabia courted their investments.",
+            "copyright":"Fayez Nureldine/Agence France-Presse — Getty Images"
+         }
+      ],
+      "short_url":"https://nyti.ms/2j2GVR4"
+   },
+   {
+      "section":"World",
+      "subsection":"",
+      "title":"Statement From DST Global",
+      "abstract":"The venture capital firm released a statement after The New York Times published an article on the billionaire investor Yuri Milner.",
+      "url":"https://www.nytimes.com/2017/11/05/world/dst-global.html",
+      "byline":"",
+      "item_type":"Article",
+      "updated_date":"2017-11-05T20:28:57-05:00",
+      "created_date":"2017-11-05T20:28:57-05:00",
+      "published_date":"2017-11-05T20:28:57-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+         "Milner, Yuri"
+      ],
+      "geo_facet":[
+
+      ],
       "multimedia":[
 
       ],
-      "headline":{
-         "main":"China Wins a Gold in Diving",
-         "kicker":"THE SEOUL OLYMPICS"
-      },
-      "keywords":[
+      "short_url":"https://nyti.ms/2hKZCW1"
+   },
+   {
+      "section":"World",
+      "subsection":"Middle East",
+      "title":"Hezbollah Urges ‘Patience and Calm’ Amid Lebanon’s Political Crisis",
+      "abstract":"A day after the resignation of Lebanon’s prime minister, who denounced Hezbollah, the leader of the Shiite militia and political party spoke out.",
+      "url":"https://www.nytimes.com/2017/11/05/world/middleeast/lebanon-hassan-nasrallah-saad-hariri.html",
+      "byline":"By ANNE BARNARD",
+      "item_type":"Article",
+      "updated_date":"2017-11-05T19:54:05-05:00",
+      "created_date":"2017-11-05T19:21:53-05:00",
+      "published_date":"2017-11-05T19:21:53-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Politics and Government"
+      ],
+      "org_facet":[
+         "Hezbollah"
+      ],
+      "per_facet":[
+         "Nasrallah, Hassan",
+         "Hariri, Saad"
+      ],
+      "geo_facet":[
+         "Lebanon",
+         "Iran",
+         "Saudi Arabia"
+      ],
+      "multimedia":[
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"persons",
-            "value":"WILLIAMS, WENDY LIAN"
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06lebanon/06lebanon-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"People watching the speech of the Hezbollah leader Hassan Nasrallah at a cafe in Beirut, Lebanon, on Sunday.",
+            "copyright":"Wael Hamzeh/European Pressphoto Agency"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"persons",
-            "value":"XU YANMEI"
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06lebanon/06lebanon-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"People watching the speech of the Hezbollah leader Hassan Nasrallah at a cafe in Beirut, Lebanon, on Sunday.",
+            "copyright":"Wael Hamzeh/European Pressphoto Agency"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"persons",
-            "value":"MITCHELL, MICHELE"
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06lebanon/06lebanon-articleInline.jpg",
+            "format":"Normal",
+            "height":126,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"People watching the speech of the Hezbollah leader Hassan Nasrallah at a cafe in Beirut, Lebanon, on Sunday.",
+            "copyright":"Wael Hamzeh/European Pressphoto Agency"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"glocations",
-            "value":"CHINA, PEOPLE'S REPUBLIC OF"
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06lebanon/06lebanon-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"People watching the speech of the Hezbollah leader Hassan Nasrallah at a cafe in Beirut, Lebanon, on Sunday.",
+            "copyright":"Wael Hamzeh/European Pressphoto Agency"
          },
          {
-            "isMajor":null,
-            "rank":0,
-            "name":"glocations",
-            "value":"UNITED STATES"
-         },
-         {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"OLYMPIC GAMES (1988)"
-         },
-         {
-            "isMajor":null,
-            "rank":0,
-            "name":"subject",
-            "value":"DIVING (SPORTS EVENT)"
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06lebanon/06lebanon-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1361,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"People watching the speech of the Hezbollah leader Hassan Nasrallah at a cafe in Beirut, Lebanon, on Sunday.",
+            "copyright":"Wael Hamzeh/European Pressphoto Agency"
          }
       ],
-      "pub_date":"1988-09-18T00:00:00Z",
-      "document_type":"article",
-      "new_desk":"Sports Desk",
-      "byline":{
-         "original":"By MICHAEL JANOFSKY, Special to the New York Times"
-      },
-      "type_of_material":"News",
-      "_id":"4fd1a0278eb7c8105d6b41a3",
-      "word_count":900,
-      "score":6.7412286
+      "short_url":"https://nyti.ms/2j6QkXW"
+   },
+   {
+      "section":"U.S.",
+      "subsection":"",
+      "title":"What Doomsday Cults Can Teach Us About ISIS Today",
+      "abstract":"Indoctrination practices used by the Islamic State have much in common with apocalyptic cults from decades ago.",
+      "url":"https://www.nytimes.com/2017/11/05/us/retro-cults-isis.html",
+      "byline":"By CLYDE HABERMAN",
+      "item_type":"Article",
+      "updated_date":"2017-11-05T18:30:02-05:00",
+      "created_date":"2017-11-05T18:30:02-05:00",
+      "published_date":"2017-11-05T18:30:02-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Terrorism",
+         "Religious Cults",
+         "Propaganda"
+      ],
+      "org_facet":[
+         "Islamic State in Iraq and Syria (ISIS)"
+      ],
+      "per_facet":[
+         "Saipov, Sayfullo"
+      ],
+      "geo_facet":[
+         "Guyana",
+         "Jonestown (Guyana)"
+      ],
+      "multimedia":[
+
+      ],
+      "short_url":"https://nyti.ms/2j3qa8g"
+   },
+   {
+      "section":"World",
+      "subsection":"Europe",
+      "title":"Hundreds Arrested as Group Urges New Russian Revolution",
+      "abstract":"The police detained Moscow demonstrators who had apparently heeded the call of a right-wing movement timed near the Russian Revolution’s 100th anniversary.",
+      "url":"https://www.nytimes.com/2017/11/05/world/europe/russia-revolution-arrests.html",
+      "byline":"By ANDREW E. KRAMER",
+      "item_type":"Article",
+      "updated_date":"2017-11-05T18:07:24-05:00",
+      "created_date":"2017-11-05T18:07:24-05:00",
+      "published_date":"2017-11-05T18:07:24-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Russian Revolution (1917)",
+         "Fringe Groups and Movements"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+
+      ],
+      "geo_facet":[
+         "Russia",
+         "USSR (Former Soviet Union)"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06russia1/06russia1-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Russian police officers detained an activist during a rally in central Moscow on Sunday.",
+            "copyright":"Maxim Zmeyev/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06russia1/06russia1-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Russian police officers detained an activist during a rally in central Moscow on Sunday.",
+            "copyright":"Maxim Zmeyev/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06russia1/06russia1-articleInline.jpg",
+            "format":"Normal",
+            "height":111,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Russian police officers detained an activist during a rally in central Moscow on Sunday.",
+            "copyright":"Maxim Zmeyev/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06russia1/06russia1-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Russian police officers detained an activist during a rally in central Moscow on Sunday.",
+            "copyright":"Maxim Zmeyev/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06russia1/06russia1-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1195,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Russian police officers detained an activist during a rally in central Moscow on Sunday.",
+            "copyright":"Maxim Zmeyev/Agence France-Presse — Getty Images"
+         }
+      ],
+      "short_url":"https://nyti.ms/2hICver"
+   },
+   {
+      "section":"World",
+      "subsection":"Middle East",
+      "title":"Saudi Prince, Asserting Power, Brings Clerics to Heel",
+      "abstract":"Taming the powerful religious establishment may bring historic change to Saudi Arabia, where the royal family has always governed in consensus with clerics.",
+      "url":"https://www.nytimes.com/2017/11/05/world/middleeast/saudi-arabia-wahhabism-salafism-mohammed-bin-salman.html",
+      "byline":"By BEN HUBBARD",
+      "item_type":"Article",
+      "updated_date":"2017-11-05T23:32:46-05:00",
+      "created_date":"2017-11-05T17:36:35-05:00",
+      "published_date":"2017-11-05T17:36:35-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Muslims and Islam",
+         "Clergy",
+         "Royal Families"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+         "Mohammed bin Salman (1985- )"
+      ],
+      "geo_facet":[
+         "Saudi Arabia"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06saudi-clerics1/xxsaudi-clerics1-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Men entering the Alrajhi Mosque, in Riyadh, Saudi Arabia, for noon prayer.",
+            "copyright":"Tasneem Alsultan for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06saudi-clerics1/xxsaudi-clerics1-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Men entering the Alrajhi Mosque, in Riyadh, Saudi Arabia, for noon prayer.",
+            "copyright":"Tasneem Alsultan for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06saudi-clerics1/xxsaudi-clerics1-articleInline.jpg",
+            "format":"Normal",
+            "height":127,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Men entering the Alrajhi Mosque, in Riyadh, Saudi Arabia, for noon prayer.",
+            "copyright":"Tasneem Alsultan for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06saudi-clerics1/xxsaudi-clerics1-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Men entering the Alrajhi Mosque, in Riyadh, Saudi Arabia, for noon prayer.",
+            "copyright":"Tasneem Alsultan for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06saudi-clerics1/xxsaudi-clerics1-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1365,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Men entering the Alrajhi Mosque, in Riyadh, Saudi Arabia, for noon prayer.",
+            "copyright":"Tasneem Alsultan for The New York Times"
+         }
+      ]
+   },
+   {
+      "section":"World",
+      "subsection":"Middle East",
+      "title":"Saudi Crown Prince’s Mass Purge Upends a Longstanding System",
+      "abstract":"The move appeared to be the most sweeping shift in governance the kingdom has experienced for more than eight decades.",
+      "url":"https://www.nytimes.com/2017/11/05/world/middleeast/saudi-crown-prince-purge.html",
+      "byline":"By DAVID D. KIRKPATRICK",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T04:54:51-05:00",
+      "created_date":"2017-11-05T16:14:09-05:00",
+      "published_date":"2017-11-05T16:14:09-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Corruption (Institutional)",
+         "Royal Families"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+         "Mohammed bin Salman (1985- )",
+         "Alwaleed bin Talal"
+      ],
+      "geo_facet":[
+         "Saudi Arabia"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06riyadh1/06riyadh1-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Crown Prince Mohammed bin Salman, center, at the Future Investment Initiative last month in Riyadh, Saudi Arabia.",
+            "copyright":"Tasneem Alsultan for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06riyadh1/06riyadh1-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Crown Prince Mohammed bin Salman, center, at the Future Investment Initiative last month in Riyadh, Saudi Arabia.",
+            "copyright":"Tasneem Alsultan for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06riyadh1/06riyadh1-articleInline.jpg",
+            "format":"Normal",
+            "height":127,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Crown Prince Mohammed bin Salman, center, at the Future Investment Initiative last month in Riyadh, Saudi Arabia.",
+            "copyright":"Tasneem Alsultan for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06riyadh1/06riyadh1-mediumThreeByTwo210-v2.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Crown Prince Mohammed bin Salman, center, at the Future Investment Initiative last month in Riyadh, Saudi Arabia.",
+            "copyright":"Tasneem Alsultan for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06riyadh1/06riyadh1-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1365,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Crown Prince Mohammed bin Salman, center, at the Future Investment Initiative last month in Riyadh, Saudi Arabia.",
+            "copyright":"Tasneem Alsultan for The New York Times"
+         }
+      ],
+      "short_url":"https://nyti.ms/2hJnXLM"
+   },
+   {
+      "section":"World",
+      "subsection":"Africa",
+      "title":"‘We Are Everywhere’: How Ethiopia Became a Land of Prying Eyes",
+      "abstract":"The governing party in this East African nation has a network of millions of loyalists and informers to watch each village and every neighborhood. Meet one of them, a farmer and enforcer.",
+      "url":"https://www.nytimes.com/2017/11/05/world/africa/ethiopia-government-surveillance.html",
+      "byline":"By KIMIKO de FREYTAS-TAMURA",
+      "item_type":"Article",
+      "updated_date":"2017-11-05T14:28:28-05:00",
+      "created_date":"2017-11-05T14:28:28-05:00",
+      "published_date":"2017-11-05T14:28:28-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Surveillance of Citizens by Government",
+         "Rural Areas",
+         "Informers"
+      ],
+      "org_facet":[
+         "Ethiopian People's Revolutionary Democratic Front (EPRDF)"
+      ],
+      "per_facet":[
+
+      ],
+      "geo_facet":[
+         "Ethiopia"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/xxethiopia-fendika2/xxethiopia-fendika2-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Takele Alene in his home in Fendika, Ethiopia. Besides being a farmer, Mr. Alene is a senior village official, serving as both an informant and an enforcer for the country’s governing party.",
+            "copyright":"Tiksa Negeri for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/xxethiopia-fendika2/xxethiopia-fendika2-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Takele Alene in his home in Fendika, Ethiopia. Besides being a farmer, Mr. Alene is a senior village official, serving as both an informant and an enforcer for the country’s governing party.",
+            "copyright":"Tiksa Negeri for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/xxethiopia-fendika2/xxethiopia-fendika2-articleInline.jpg",
+            "format":"Normal",
+            "height":127,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Takele Alene in his home in Fendika, Ethiopia. Besides being a farmer, Mr. Alene is a senior village official, serving as both an informant and an enforcer for the country’s governing party.",
+            "copyright":"Tiksa Negeri for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/xxethiopia-fendika2/xxethiopia-fendika2-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Takele Alene in his home in Fendika, Ethiopia. Besides being a farmer, Mr. Alene is a senior village official, serving as both an informant and an enforcer for the country’s governing party.",
+            "copyright":"Tiksa Negeri for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/xxethiopia-fendika2/xxethiopia-fendika2-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1365,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Takele Alene in his home in Fendika, Ethiopia. Besides being a farmer, Mr. Alene is a senior village official, serving as both an informant and an enforcer for the country’s governing party.",
+            "copyright":"Tiksa Negeri for The New York Times"
+         }
+      ],
+      "short_url":"https://nyti.ms/2j2UboH"
+   },
+   {
+      "section":"World",
+      "subsection":"",
+      "title":"Kremlin Cash Behind Billionaire’s Twitter and Facebook Investments",
+      "abstract":"Leaked files show that a state-controlled bank in Moscow helped to fuel Yuri Milner’s ascent in Silicon Valley, where the Russia investigation has put tech companies under scrutiny.",
+      "url":"https://www.nytimes.com/2017/11/05/world/yuri-milner-facebook-twitter-russia.html",
+      "byline":"By JESSE DRUCKER",
+      "item_type":"Article",
+      "updated_date":"2017-11-05T20:30:23-05:00",
+      "created_date":"2017-11-05T13:00:26-05:00",
+      "published_date":"2017-11-05T13:00:26-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Russian Interference in 2016 US Elections and Ties to Trump Associates",
+         "Social Media"
+      ],
+      "org_facet":[
+         "DST Global Solutions",
+         "Gazprom",
+         "Facebook Inc",
+         "Twitter",
+         "Mail.ru",
+         "Appleby Global Group Services Ltd",
+         "VTB Bank"
+      ],
+      "per_facet":[
+         "Milner, Yuri",
+         "Usmanov, Alisher B",
+         "Roldugin, Sergei P"
+      ],
+      "geo_facet":[
+         "United States",
+         "Russia"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06Yuri2/06Yuri2-thumbStandard-v2.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Mr. Milner, right, with Mark Zuckerberg, the chief executive of Facebook. The company, along with Twitter and other social media sites, has become a major focus of investigations into Russian interference in the 2016 presidential election.",
+            "copyright":"Kimberly White/Getty Images for Breakthrough Prize"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06Yuri2/06Yuri2-thumbLarge-v2.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Mr. Milner, right, with Mark Zuckerberg, the chief executive of Facebook. The company, along with Twitter and other social media sites, has become a major focus of investigations into Russian interference in the 2016 presidential election.",
+            "copyright":"Kimberly White/Getty Images for Breakthrough Prize"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06Yuri2/06Yuri2-articleInline-v2.jpg",
+            "format":"Normal",
+            "height":175,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Mr. Milner, right, with Mark Zuckerberg, the chief executive of Facebook. The company, along with Twitter and other social media sites, has become a major focus of investigations into Russian interference in the 2016 presidential election.",
+            "copyright":"Kimberly White/Getty Images for Breakthrough Prize"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06Yuri2/06Yuri2-mediumThreeByTwo210-v2.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Mr. Milner, right, with Mark Zuckerberg, the chief executive of Facebook. The company, along with Twitter and other social media sites, has become a major focus of investigations into Russian interference in the 2016 presidential election.",
+            "copyright":"Kimberly White/Getty Images for Breakthrough Prize"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06Yuri2/merlin_129558428_1e7b047f-01e6-44d5-8f20-d3f66b7a6ebe-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1433,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Mr. Milner, right, with Mark Zuckerberg, the chief executive of Facebook. The company, along with Twitter and other social media sites, has become a major focus of investigations into Russian interference in the 2016 presidential election.",
+            "copyright":"Kimberly White/Getty Images for Breakthrough Prize"
+         }
+      ],
+      "short_url":"https://nyti.ms/2hIyoPu"
+   },
+   {
+      "section":"World",
+      "subsection":"",
+      "title":"Commerce Secretary’s Offshore Ties to Putin ‘Cronies’",
+      "abstract":"Wilbur Ross, the commerce secretary, retained investments in a shipping firm with business ties to Russian President Vladimir V. Putin’s inner circle.",
+      "url":"https://www.nytimes.com/2017/11/05/world/wilbur-ross-russia.html",
+      "byline":"By MIKE McINTIRE, SASHA CHAVKIN and MARTHA M. HAMILTON",
+      "item_type":"Article",
+      "updated_date":"2017-11-05T18:19:54-05:00",
+      "created_date":"2017-11-05T13:00:19-05:00",
+      "published_date":"2017-11-05T13:00:19-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Russian Interference in 2016 US Elections and Ties to Trump Associates",
+         "Embargoes and Sanctions",
+         "Tax Shelters",
+         "Conflicts of Interest"
+      ],
+      "org_facet":[
+         "Navigator Holdings Ltd",
+         "Sibur",
+         "Appleby Global Group Services Ltd",
+         "Commerce Department",
+         "Novatek"
+      ],
+      "per_facet":[
+         "Ross, Wilbur L Jr",
+         "Trump, Donald J",
+         "Timchenko, Gennady N",
+         "Putin, Vladimir V",
+         "Mikhelson, Leonid V",
+         "Shamalov, Kirill N"
+      ],
+      "geo_facet":[
+         "Russia",
+         "United States"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/05/briefing/06ROSS-alpha/06ROSS-alpha-thumbStandard-v3.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":"Al Drago/The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/05/briefing/06ROSS-alpha/06ROSS-alpha-thumbLarge-v3.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":"Al Drago/The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/05/briefing/06ROSS-alpha/06ROSS-alpha-articleInline.jpg",
+            "format":"Normal",
+            "height":141,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":"Al Drago/The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/05/briefing/06ROSS-alpha/06ROSS-alpha-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":"Al Drago/The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/05/briefing/06ROSS-alpha/06ROSS-alpha-superJumbo-v2.jpg",
+            "format":"superJumbo",
+            "height":1365,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"",
+            "copyright":"Al Drago/The New York Times"
+         }
+      ],
+      "short_url":"https://nyti.ms/2j2XU5u"
+   },
+   {
+      "section":"World",
+      "subsection":"Canada",
+      "title":"Canada Legal Fight May ‘Destroy the Faith’ in First Nations Treaties",
+      "abstract":"At stake in a case before the country’s Supreme Court: how much influence Canada’s indigenous groups will have over land and natural resources in their traditional territories.",
+      "url":"https://www.nytimes.com/2017/11/05/world/canada/yukon-indigenous-treaties.html",
+      "byline":"By DAN LEVIN",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T00:22:49-05:00",
+      "created_date":"2017-11-05T12:58:10-05:00",
+      "published_date":"2017-11-05T12:58:10-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Indigenous People",
+         "Wilderness Areas",
+         "Land Use Policies",
+         "Treaties",
+         "Native Americans"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+
+      ],
+      "geo_facet":[
+         "Peel Watershed (Canada)",
+         "Canada",
+         "Yukon Territory"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/00yukon6/00yukon6-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Hart River, running through Yukon&rsquo;s Peel Watershed. The vast wilderness has huge deposits of coal, gas and minerals.",
+            "copyright":"Aaron Vincent Elkaim for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/00yukon6/00yukon6-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Hart River, running through Yukon&rsquo;s Peel Watershed. The vast wilderness has huge deposits of coal, gas and minerals.",
+            "copyright":"Aaron Vincent Elkaim for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/00yukon6/00yukon6-articleInline.jpg",
+            "format":"Normal",
+            "height":127,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Hart River, running through Yukon&rsquo;s Peel Watershed. The vast wilderness has huge deposits of coal, gas and minerals.",
+            "copyright":"Aaron Vincent Elkaim for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/00yukon6/00yukon6-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Hart River, running through Yukon&rsquo;s Peel Watershed. The vast wilderness has huge deposits of coal, gas and minerals.",
+            "copyright":"Aaron Vincent Elkaim for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/00yukon6/00yukon6-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1365,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The Hart River, running through Yukon&rsquo;s Peel Watershed. The vast wilderness has huge deposits of coal, gas and minerals.",
+            "copyright":"Aaron Vincent Elkaim for The New York Times"
+         }
+      ]
+   },
+   {
+      "section":"World",
+      "subsection":"Americas",
+      "title":"The Wedding Is Fake, but the Party Is Real",
+      "abstract":"In Argentina, couples are delaying marriage, turning to civil unions or divorcing. So why wait for a ceremony to have a celebration?",
+      "url":"https://www.nytimes.com/2017/11/05/world/americas/argentina-fake-wedding-falsa-boda.html",
+      "byline":"Photographs and Text by MAURICIO LIMA",
+      "item_type":"Article",
+      "updated_date":"2017-11-05T17:50:55-05:00",
+      "created_date":"2017-11-05T12:05:26-05:00",
+      "published_date":"2017-11-05T12:05:26-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "vis-photo",
+         "Weddings and Engagements",
+         "Theater"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+
+      ],
+      "geo_facet":[
+         "Argentina",
+         "Buenos Aires (Argentina)"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/09/04/world/americas/xxfakewedding-promoALPHA/xxfakewedding-slide-RDB5-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Federico Stegmayer, a hired actor who played the groom at a fake wedding event in Buenos Aires, removed the garter of Victoria Alcorta, an actress who played the bride.",
+            "copyright":"Mauricio Lima for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/09/04/world/americas/xxfakewedding-promoALPHA/xxfakewedding-slide-RDB5-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Federico Stegmayer, a hired actor who played the groom at a fake wedding event in Buenos Aires, removed the garter of Victoria Alcorta, an actress who played the bride.",
+            "copyright":"Mauricio Lima for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/09/04/world/americas/xxfakewedding-promoALPHA/xxfakewedding-slide-RDB5-articleInline.jpg",
+            "format":"Normal",
+            "height":127,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Federico Stegmayer, a hired actor who played the groom at a fake wedding event in Buenos Aires, removed the garter of Victoria Alcorta, an actress who played the bride.",
+            "copyright":"Mauricio Lima for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/09/04/world/americas/xxfakewedding-promoALPHA/xxfakewedding-slide-RDB5-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Federico Stegmayer, a hired actor who played the groom at a fake wedding event in Buenos Aires, removed the garter of Victoria Alcorta, an actress who played the bride.",
+            "copyright":"Mauricio Lima for The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/09/04/world/americas/xxfakewedding-promoALPHA/xxfakewedding-slide-RDB5-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1365,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Federico Stegmayer, a hired actor who played the groom at a fake wedding event in Buenos Aires, removed the garter of Victoria Alcorta, an actress who played the bride.",
+            "copyright":"Mauricio Lima for The New York Times"
+         }
+      ],
+      "short_url":"https://nyti.ms/2hHlb9O"
+   },
+   {
+      "section":"World",
+      "subsection":"Europe",
+      "title":"Slovakia Deals Setback to Neo-Fascist Candidate",
+      "abstract":"While voters refused to re-elect an anti-European Union candidate as a regional governor, they also turned away four members of the governing party.",
+      "url":"https://www.nytimes.com/2017/11/05/world/europe/slovakia-election.html",
+      "byline":"By MIROSLAVA GERMANOVA",
+      "item_type":"Article",
+      "updated_date":"2017-11-05T10:23:08-05:00",
+      "created_date":"2017-11-05T10:23:08-05:00",
+      "published_date":"2017-11-05T10:23:08-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Elections",
+         "Politics and Government"
+      ],
+      "org_facet":[
+         "Smer-Social Democracy (Slovakia)"
+      ],
+      "per_facet":[
+         "Fico, Robert",
+         "Kotleba, Marian"
+      ],
+      "geo_facet":[
+         "Slovakia",
+         "Banska Bystrica (Slovenia)"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06slovak-1/06slovak-1-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Marian Kotleba in Slovakia’s Parliament in Bratislava in 2016. The far-right candidate failed to win re-election on Saturday as a regional governor, though he keeps his seat in the national Parliament.",
+            "copyright":"Vladimir Simicek/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06slovak-1/06slovak-1-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Marian Kotleba in Slovakia’s Parliament in Bratislava in 2016. The far-right candidate failed to win re-election on Saturday as a regional governor, though he keeps his seat in the national Parliament.",
+            "copyright":"Vladimir Simicek/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06slovak-1/06slovak-1-articleInline.jpg",
+            "format":"Normal",
+            "height":116,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Marian Kotleba in Slovakia’s Parliament in Bratislava in 2016. The far-right candidate failed to win re-election on Saturday as a regional governor, though he keeps his seat in the national Parliament.",
+            "copyright":"Vladimir Simicek/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06slovak-1/06slovak-1-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Marian Kotleba in Slovakia’s Parliament in Bratislava in 2016. The far-right candidate failed to win re-election on Saturday as a regional governor, though he keeps his seat in the national Parliament.",
+            "copyright":"Vladimir Simicek/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06slovak-1/06slovak-1-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1365,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Marian Kotleba in Slovakia’s Parliament in Bratislava in 2016. The far-right candidate failed to win re-election on Saturday as a regional governor, though he keeps his seat in the national Parliament.",
+            "copyright":"Vladimir Simicek/Agence France-Presse — Getty Images"
+         }
+      ],
+      "short_url":"https://nyti.ms/2j0Gkz8"
+   },
+   {
+      "section":"World",
+      "subsection":"Europe",
+      "title":"Puigdemont and Other Catalonia Separatists Report to Belgian Police",
+      "abstract":"A judge had issued international warrants for the five members of Mr. Puigdemont’s now-deposed government, all of whom were in Belgium.",
+      "url":"https://www.nytimes.com/2017/11/05/world/europe/carles-puigdemont-brussels-arrest.html",
+      "byline":"By MILAN SCHREUER",
+      "item_type":"Article",
+      "updated_date":"2017-11-05T18:57:37-05:00",
+      "created_date":"2017-11-05T09:05:21-05:00",
+      "published_date":"2017-11-05T09:05:21-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Politics and Government",
+         "Secession and Independence Movements"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+         "Puigdemont, Carles (1962- )"
+      ],
+      "geo_facet":[
+         "Belgium",
+         "Catalonia (Spain)",
+         "Spain"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06puigdemont-1/06puigdemont-1-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The deposed Catalan leader, Carles Puigdemont, and other former officials at a news conference in Brussels last month.",
+            "copyright":"Aurore Belot/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06puigdemont-1/06puigdemont-1-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The deposed Catalan leader, Carles Puigdemont, and other former officials at a news conference in Brussels last month.",
+            "copyright":"Aurore Belot/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06puigdemont-1/06puigdemont-1-articleInline.jpg",
+            "format":"Normal",
+            "height":124,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The deposed Catalan leader, Carles Puigdemont, and other former officials at a news conference in Brussels last month.",
+            "copyright":"Aurore Belot/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06puigdemont-1/06puigdemont-1-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The deposed Catalan leader, Carles Puigdemont, and other former officials at a news conference in Brussels last month.",
+            "copyright":"Aurore Belot/Agence France-Presse — Getty Images"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06puigdemont-1/06puigdemont-1-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1364,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"The deposed Catalan leader, Carles Puigdemont, and other former officials at a news conference in Brussels last month.",
+            "copyright":"Aurore Belot/Agence France-Presse — Getty Images"
+         }
+      ],
+      "short_url":"https://nyti.ms/2j5nvuZ"
+   },
+   {
+      "section":"World",
+      "subsection":"Middle East",
+      "title":"Trump Tells Saudi King That He Supports Modernization Drive",
+      "abstract":"In a phone call, President Trump praised Crown Prince Mohammed bin Salman, who is thought to be behind a sweeping campaign of arrests.",
+      "url":"https://www.nytimes.com/2017/11/05/world/middleeast/saudi-arabia-arrests.html",
+      "byline":"By MARK LANDLER",
+      "item_type":"Article",
+      "updated_date":"2017-11-05T12:27:18-05:00",
+      "created_date":"2017-11-05T06:43:18-05:00",
+      "published_date":"2017-11-05T06:43:18-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "United States International Relations"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+         "Mohammed bin Salman (1985- )",
+         "Salman, King of Saudi Arabia",
+         "Trump, Donald J",
+         "Alwaleed bin Talal"
+      ],
+      "geo_facet":[
+         "Saudi Arabia"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06saudi-1/06saudi-1-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"President Trump with Crown Prince Mohammed bin Salman of Saudi Arabia during a visit to Riyadh in May.",
+            "copyright":"Stephen Crowley/The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06saudi-1/06saudi-1-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"President Trump with Crown Prince Mohammed bin Salman of Saudi Arabia during a visit to Riyadh in May.",
+            "copyright":"Stephen Crowley/The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06saudi-1/06saudi-1-articleInline.jpg",
+            "format":"Normal",
+            "height":115,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"President Trump with Crown Prince Mohammed bin Salman of Saudi Arabia during a visit to Riyadh in May.",
+            "copyright":"Stephen Crowley/The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06saudi-1/06saudi-1-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"President Trump with Crown Prince Mohammed bin Salman of Saudi Arabia during a visit to Riyadh in May.",
+            "copyright":"Stephen Crowley/The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/world/06saudi-1/06saudi-1-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1048,
+            "width":1572,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"President Trump with Crown Prince Mohammed bin Salman of Saudi Arabia during a visit to Riyadh in May.",
+            "copyright":"Stephen Crowley/The New York Times"
+         }
+      ],
+      "short_url":"https://nyti.ms/2hJtVfL"
+   },
+   {
+      "section":"World",
+      "subsection":"Europe",
+      "title":"Guy Fawkes Failed. But in the U.K., He Still Has His Night.",
+      "abstract":"More than 400 years after his capture ended a plot to kill the king of England, his name and face are part of the culture in Britain and worldwide.",
+      "url":"https://www.nytimes.com/2017/11/05/world/europe/night-guy-fawkes.html",
+      "byline":"By THOMAS FURSE",
+      "item_type":"Article",
+      "updated_date":"2017-11-05T04:30:27-05:00",
+      "created_date":"2017-11-05T04:30:27-05:00",
+      "published_date":"2017-11-05T04:30:27-05:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+         "Fawkes, Guy"
+      ],
+      "geo_facet":[
+         "England"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/04/world/04guyfawkes-sub/04guyfawkes-sub-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"An effigy of Guy Fawkes in a procession in Lewes, England, in 2012 for the anniversary of a failed plot to blow up Parliament in London in 1605.",
+            "copyright":"Luke MacGregor/Reuters"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/04/world/04guyfawkes-sub/04guyfawkes-sub-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"An effigy of Guy Fawkes in a procession in Lewes, England, in 2012 for the anniversary of a failed plot to blow up Parliament in London in 1605.",
+            "copyright":"Luke MacGregor/Reuters"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/04/world/04guyfawkes-sub/04guyfawkes-sub-articleInline.jpg",
+            "format":"Normal",
+            "height":124,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"An effigy of Guy Fawkes in a procession in Lewes, England, in 2012 for the anniversary of a failed plot to blow up Parliament in London in 1605.",
+            "copyright":"Luke MacGregor/Reuters"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/04/world/04guyfawkes-sub/04guyfawkes-sub-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"An effigy of Guy Fawkes in a procession in Lewes, England, in 2012 for the anniversary of a failed plot to blow up Parliament in London in 1605.",
+            "copyright":"Luke MacGregor/Reuters"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/04/world/04guyfawkes-sub/04guyfawkes-sub-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1341,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"An effigy of Guy Fawkes in a procession in Lewes, England, in 2012 for the anniversary of a failed plot to blow up Parliament in London in 1605.",
+            "copyright":"Luke MacGregor/Reuters"
+         }
+      ],
+      "short_url":"https://nyti.ms/2j28Wbq"
+   },
+   {
+      "section":"Business Day",
+      "subsection":"",
+      "title":"Citigroup, Twitter, Lyft: Prince’s Arrest Touches Many",
+      "abstract":"Prince Alwaleed’s arrest is likely to reverberate across dozens of publicly listed companies that count him as a major investor.",
+      "url":"https://www.nytimes.com/2017/11/05/business/saudi-prince-alwaleed-investor.html",
+      "byline":"By ALEXANDRA STEVENSON, ANNE BARNARD and NEIL MacFARQUHAR",
+      "item_type":"Article",
+      "updated_date":"2017-11-06T01:37:45-05:00",
+      "created_date":"2017-11-05T00:47:34-04:00",
+      "published_date":"2017-11-05T00:47:34-04:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "Royal Families",
+         "Corruption (Institutional)"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+         "Alwaleed bin Talal",
+         "Mohammed bin Salman (1985- )"
+      ],
+      "geo_facet":[
+         "Saudi Arabia"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/business/06saudibiz/06saudibiz-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Prince Alwaleed bin Talal, center, at the reopening of the Savoy in London in 2010, one of his many investments.",
+            "copyright":"Paul Hackett/Reuters"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/business/06saudibiz/06saudibiz-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Prince Alwaleed bin Talal, center, at the reopening of the Savoy in London in 2010, one of his many investments.",
+            "copyright":"Paul Hackett/Reuters"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/business/06saudibiz/06saudibiz-articleInline.jpg",
+            "format":"Normal",
+            "height":126,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Prince Alwaleed bin Talal, center, at the reopening of the Savoy in London in 2010, one of his many investments.",
+            "copyright":"Paul Hackett/Reuters"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/business/06saudibiz/06saudibiz-mediumThreeByTwo210.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Prince Alwaleed bin Talal, center, at the reopening of the Savoy in London in 2010, one of his many investments.",
+            "copyright":"Paul Hackett/Reuters"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/06/business/06saudibiz/06saudibiz-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1355,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"Prince Alwaleed bin Talal, center, at the reopening of the Savoy in London in 2010, one of his many investments.",
+            "copyright":"Paul Hackett/Reuters"
+         }
+      ]
+   },
+   {
+      "section":"World",
+      "subsection":"Asia Pacific",
+      "title":"Trump Opens Asia Trip Talking Tough in Campaign-Style Rally",
+      "abstract":"President Trump promoted American military might and his own domestic record as he arrived in Japan to start a 12-day, five-country tour through Asia.",
+      "url":"https://www.nytimes.com/2017/11/05/world/asia/trump-asia-japan-korea.html",
+      "byline":"By JULIE HIRSCHFELD DAVIS",
+      "item_type":"Article",
+      "updated_date":"2017-11-05T19:52:29-05:00",
+      "created_date":"2017-11-05T00:30:55-04:00",
+      "published_date":"2017-11-05T00:30:55-04:00",
+      "material_type_facet":"",
+      "kicker":"",
+      "des_facet":[
+         "United States International Relations",
+         "Defense and Military Forces",
+         "United States Politics and Government"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+         "Trump, Donald J",
+         "Abe, Shinzo",
+         "Xi Jinping",
+         "Putin, Vladimir V"
+      ],
+      "geo_facet":[
+         "Far East, South and Southeast Asia and Pacific Areas",
+         "Japan",
+         "China",
+         "Russia",
+         "North Korea"
+      ],
+      "multimedia":[
+         {
+            "url":"https://static01.nyt.com/images/2017/11/05/us/06PREXY/06PREXY-thumbStandard.jpg",
+            "format":"Standard Thumbnail",
+            "height":75,
+            "width":75,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"President Trump spoke Sunday at Yokota Air Base in Japan at the beginning of a 12-day, five-country trip through Asia. He told American troops, “You are the greatest threat to tyrants and dictators who seek to prey on the innocent.”",
+            "copyright":"Doug Mills/The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/05/us/06PREXY/06PREXY-thumbLarge.jpg",
+            "format":"thumbLarge",
+            "height":150,
+            "width":150,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"President Trump spoke Sunday at Yokota Air Base in Japan at the beginning of a 12-day, five-country trip through Asia. He told American troops, “You are the greatest threat to tyrants and dictators who seek to prey on the innocent.”",
+            "copyright":"Doug Mills/The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/05/us/06PREXY/06PREXY-articleInline.jpg",
+            "format":"Normal",
+            "height":127,
+            "width":190,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"President Trump spoke Sunday at Yokota Air Base in Japan at the beginning of a 12-day, five-country trip through Asia. He told American troops, “You are the greatest threat to tyrants and dictators who seek to prey on the innocent.”",
+            "copyright":"Doug Mills/The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/05/us/06PREXY/06PREXY-mediumThreeByTwo210-v2.jpg",
+            "format":"mediumThreeByTwo210",
+            "height":140,
+            "width":210,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"President Trump spoke Sunday at Yokota Air Base in Japan at the beginning of a 12-day, five-country trip through Asia. He told American troops, “You are the greatest threat to tyrants and dictators who seek to prey on the innocent.”",
+            "copyright":"Doug Mills/The New York Times"
+         },
+         {
+            "url":"https://static01.nyt.com/images/2017/11/05/us/06PREXY/06PREXY-superJumbo.jpg",
+            "format":"superJumbo",
+            "height":1365,
+            "width":2048,
+            "type":"image",
+            "subtype":"photo",
+            "caption":"President Trump spoke Sunday at Yokota Air Base in Japan at the beginning of a 12-day, five-country trip through Asia. He told American troops, “You are the greatest threat to tyrants and dictators who seek to prey on the innocent.”",
+            "copyright":"Doug Mills/The New York Times"
+         }
+      ],
+      "short_url":"https://nyti.ms/2iZOFTI"
    }
 ]

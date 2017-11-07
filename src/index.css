@@ -46,9 +46,32 @@ h1 {
     opacity: 1;
 }
 
+.article img {
+    border-radius: 2px;
+}
+
+.article .article-date {
+    margin-bottom: 10px;
+}
+
+.article .article-date p {
+    font-size: 20px;
+}
+
+.article .article-panel {
+    display: inline-block;
+    width: calc(100% - 170px);
+    vertical-align: top;
+    padding-left: 20px;
+}
+
+.article .image-panel {
+    display: inline-block;
+    width: 150px;
+}
+
 .article p {
     color: #424242;
-    margin-top: 20px;
     font-size: 25px;
     letter-spacing: 0.5px;
 }
