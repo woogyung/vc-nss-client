@@ -15,8 +15,8 @@
 **포크하지 마시고 바로 클론하세요.**
 
 ```
-git clone https://github.com/vanilla-coding/NSS.git
-cd NSS
+git clone https://github.com/vanilla-coding/nss-client.git
+cd nss-client
 npm install
 ```
 
