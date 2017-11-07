@@ -2,8 +2,6 @@
 
 ## News Search System - `v0-skeleton` Branch
 
-* [NY Times API](https://developer.nytimes.com/) (top_stories)
-
 ### TODO
 
 **1. 날짜 포맷 변경**
