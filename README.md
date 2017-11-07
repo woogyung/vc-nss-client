@@ -1,11 +1,13 @@
 ![Vanilla Coding](https://s3.ap-northeast-2.amazonaws.com/vanilla-coding/Assets/logo_regular%403x.png)
 
-## News Search System - `v0-skeleton` Branch
+## News Search System - `v1-new-component` Branch
 
 ### TODO
 
-**1. 날짜/시간 순으로 정렬하기**
-- 메인 페이지에 정렬하기 버튼을 만들어, 사용자가 최신 날짜/시간 혹은 오래된 날짜/시간 순으로 정렬할 수 있도록 해주세요.
+**1. 모달 만들기**
+- 현재 각 뉴스에는 Thumbnail 이미지가 들어있습니다.
+- 이미지를 클릭했을시, 모달창을 띄워서 큰 사진을 보여주세요.
+- 각각의 데이터를 보시면, 큰 사진 URL은 찾을 수 있습니다.
 
 ### 설치하기
 
