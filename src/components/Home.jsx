@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import articlesData from '../config/data.json';
 import Article from './Article.jsx';
 
-/* Formatting date */
+/* Day 4: Formatting date */
 
 // 1. Inspect current date format
 
