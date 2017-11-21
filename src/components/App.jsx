@@ -15,7 +15,7 @@ import Article from './Article.jsx';
 
 // 5. Re-write using moment.js
 
-export default class Home extends React.Component {
+export default class App extends React.Component {
   render() {
     return (
       <div className="home">
