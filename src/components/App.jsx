@@ -4,18 +4,17 @@ import articlesData from '../config/data.json';
 import Article from './Article.jsx';
 import axios from 'axios';
 
-/* Day 6: Connecting NY Times API */
+/* Day 7: Signup, Login, Logout */
 
-// 1. Look at NY Times API Document
+// 1. Create Login Form UI Component
 
-// 2. Create UI for section selection
+// 2. Make POST /signup Request to the API
 
-// 3. Call NY Times API on section name click
+// 3. Make POST /login Request to the API
 
-// 4. React Component Lifecycle Hooks
-// Doc: https://reactjs.org/docs/react-component.html
+// 4. Hide other views if not logged in
 
-// 5. Re-render upon receiving new data
+// 5. Test app
 
 export default class App extends React.Component {
   render() {
