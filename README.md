@@ -9,7 +9,7 @@
 
 ### 설치하기
 
-**포크하지 마시고 바로 클론하세요.**
+**포크하지 마시고 바로 클론하신후, 본인만의 브랜치를 만들어 작업하시고 해당 브랜치로 PR하세요.**
 
 ```
 git clone https://github.com/vanilla-coding/nss-client.git
