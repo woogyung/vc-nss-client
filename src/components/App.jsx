@@ -2,22 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import articlesData from '../config/data.json';
 import Article from './Article.jsx';
+import axios from 'axios';
 
-/* Day 5: Creating a Modal UI Component */
+/* Day 6: Connecting NY Times API */
 
-// 1. Making a decision if we need a new component
+// 1. Look at NY Times API Document
 
-// 2. Making a decision where to place the new component
+// 2. Create UI for section selection
 
-// 3. Creating a new component class
+// 3. Call NY Times API on section name click
 
-// 4. Decide if the component needs any props or states
+// 4. React Component Lifecycle Hooks
+// Doc: https://reactjs.org/docs/react-component.html
 
-// 5. Render the basics
-
-// 6. Implement the details
-
-// 7. Test app
+// 5. Re-render upon receiving new data
 
 export default class App extends React.Component {
   render() {
