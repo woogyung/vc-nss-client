@@ -3,17 +3,21 @@ import ReactDOM from 'react-dom';
 import articlesData from '../config/data.json';
 import Article from './Article.jsx';
 
-/* Day 4: Formatting date */
+/* Day 5: Creating a Modal UI Component */
 
-// 1. Inspect current date format
+// 1. Making a decision if we need a new component
 
-// 2. Write a utility function
+// 2. Making a decision where to place the new component
 
-// 3. Render pretty format
+// 3. Creating a new component class
 
-// 4. Test app
+// 4. Decide if the component needs any props or states
 
-// 5. Re-write using moment.js
+// 5. Render the basics
+
+// 6. Implement the details
+
+// 7. Test app
 
 export default class App extends React.Component {
   render() {
