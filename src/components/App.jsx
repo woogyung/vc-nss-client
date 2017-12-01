@@ -4,13 +4,13 @@ import articlesData from '../config/data.json';
 import Article from './Article.jsx';
 import axios from 'axios';
 
-/* Day 6: Connecting NY Times API */
+/* Day 6: Connecting NY Times data */
 
-// 1. Look at NY Times API Document
+// 1. Look at NSS-API document
 
 // 2. Create UI for section selection
 
-// 3. Call NY Times API on section name click
+// 3. Call NSS-API Endpoint on section name click
 
 // 4. React Component Lifecycle Hooks
 // Doc: https://reactjs.org/docs/react-component.html
