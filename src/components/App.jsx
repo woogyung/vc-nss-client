@@ -14,7 +14,9 @@ import axios from 'axios';
 
 // 4. Hide other views if not logged in
 
-// 5. Test app
+// 5. Password secured?
+
+// 6. Test app
 
 export default class App extends React.Component {
   render() {
