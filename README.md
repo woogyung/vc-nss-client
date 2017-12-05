@@ -1,6 +1,6 @@
 ![Vanilla Coding](https://s3.ap-northeast-2.amazonaws.com/vanilla-coding/Assets/logo_regular%403x.png)
 
-## News Search System - `v3-login` Branch
+## News Search System - `v4-router` Branch
 
 ### TODO
 
