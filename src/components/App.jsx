@@ -3,17 +3,7 @@ import ReactDOM from 'react-dom';
 import articlesData from '../config/data.json';
 import Article from './Article.jsx';
 
-/* Day 4: Formatting date */
-
-// 1. Inspect current date format
-
-// 2. Write a utility function
-
-// 3. Render pretty format
-
-// 4. Test app
-
-// 5. Re-write using moment.js
+var a = 1;
 
 export default class App extends React.Component {
   render() {
