@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import articlesData from '../config/data.json';
 import Article from './Article.jsx';
+import Modal from './Modal.jsx';
 
 /* Day 5: Creating a Modal UI Component */
 
@@ -18,11 +19,28 @@ import Article from './Article.jsx';
 // 6. Implement the details
 
 // 7. Test app
+console.log(articlesData); //array
+console.log(articlesData[0].multimedia[4].format); // "superJumbo"
+console.log(articlesData[0].multimedia[4].url); // "superJumbo"
 
 export default class App extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {
+
+    };
+  }
+
+  // modal(){
+
+  // }
+
   render() {
     return (
       <div className="home">
+        <div className="dim" onClick="" >
+          <Modal />
+        </div>
         {
           articlesData.map((data, i) => {
             return <Article
