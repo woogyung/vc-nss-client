@@ -4,30 +4,40 @@ import articlesData from '../config/data.json';
 import Article from './Article.jsx';
 import OrderButtons from './OrderButtons.jsx';
 
-var a = 1;
-
 export default class App extends React.Component {
   constructor(){
     super();
     this.state = {
-
+      articlesData: articlesData,
+      dataCount: 0,
     }
   }
 
   AscendingOrder(){
-    // 오름차순, 최신순 data 순서대로...
-    return (
-      console.log('오름차순')
-    );
+    // 오름차순, 최신순
+    if(this.state.dataCount !== 0){
+      this.state.articlesData = articlesData.reverse();
+      this.state.dataCount = 0;
+    }
+
+    this.setState({
+        articlesData: articlesData
+    });
   }
 
   DescendingOrder(){
     // 내림차순, 과거순...
-    console.log(articlesData)
+    this.state.articlesData = articlesData.reverse();
 
-    return(
-      console.log('내림차순')
-    )
+    if(this.state.dataCount !== 0){
+      this.state.articlesData = articlesData.reverse();
+      return;
+    }
+    this.state.dataCount++;
+
+    this.setState({
+      articlesData: articlesData,
+    });
   }
 
   renderOrderButtons(){
@@ -46,8 +56,6 @@ export default class App extends React.Component {
   }
 
   renderArticles(){
-    // data , 오름차순인지,내림차순인지...확인하고
-
     return(
       articlesData.map((data, i) => {
         return <Article
@@ -65,10 +73,6 @@ export default class App extends React.Component {
     return (
       <div className="home">
         { this.renderOrderButtons() }
-      {/*
-        renderArticles 이 새로....
-
-      */}
         { this.renderArticles() }
       </div>
     );
