@@ -21,25 +21,26 @@ import Modal from './Modal.jsx';
 // 7. Test app
 console.log(articlesData); //array
 console.log(articlesData[0].multimedia[4].format); // "superJumbo"
-console.log(articlesData[0].multimedia[4].url); // "superJumbo"
+console.log(articlesData[0].multimedia[4].url); // "....jpg"
 
 export default class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-
+      superJumboURL : null
     };
   }
 
-  // modal(){
+  rendermodal(url, target){
 
-  // }
+  };
 
   render() {
     return (
       <div className="home">
-        <div className="dim" onClick="" >
-          <Modal />
+        <div className="dim">
+           <Modal />
+
         </div>
         {
           articlesData.map((data, i) => {
@@ -49,6 +50,7 @@ export default class App extends React.Component {
               key={i}
               thumbnailURL={data.multimedia.length ? data.multimedia[1].url : null}
               publishedDate={data.published_date}
+              onClick={ (e) => this.rendermodal(data.multimedia[data.multimedia.length-1].url, e.target) }
             />
           })
         }
