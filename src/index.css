@@ -75,7 +75,7 @@ h1 {
 }
 
 .dim {
-  display: none;
+  /*display: none;*/
   position: absolute;
   left: 0;
   right: 0;
@@ -83,16 +83,16 @@ h1 {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.8);
   z-index: 100;
 }
 
 .modal-wrap {
   position: absolute;
-  left: 25%;
-  top: 25%;
-  width: 50%;
-  height: 50%;
+  left: 15%;
+  top: 15%;
+  width: 70%;
+  height: 70%;
   background-color: #fff;
 }
 
@@ -100,6 +100,12 @@ h1 {
   width: 100%;
   height: 100%;
   border: 1px solid black;
+  overflow: hidden;
+
+}
+.modal-wrap .img > img {
+  background-position: 50% 50%;
+  display: block;
 }
 .modal-wrap button {
   width: 30px;
@@ -107,5 +113,6 @@ h1 {
   background-color: #fff;
   font-size: 20px;
   font-weight: bold;
+  font-family: 'Fugaz One', cursive;
   border: 1px solid black;
 }

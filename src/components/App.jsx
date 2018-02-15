@@ -20,28 +20,57 @@ import Modal from './Modal.jsx';
 
 // 7. Test app
 console.log(articlesData); //array
-console.log(articlesData[0].multimedia[4].format); // "superJumbo"
-console.log(articlesData[0].multimedia[4].url); // "....jpg"
 
 export default class App extends React.Component {
   constructor(props){
     super(props);
+
+    this.handleModaln = this.handleModaln.bind(this);
+    this.handleModalOut = this.handleModalOut.bind(this);
     this.state = {
-      superJumboURL : null
+      articlesData: articlesData,
+      isShowImg: false,
+      superJumboImg : '',
+      imgAlt: '',
     };
   }
 
-  rendermodal(url, target){
-
+  handleModaln(imgSrc, imgAlt){
+    this.setState({
+      isShowImg: true,
+      superJumboImg: imgSrc,
+      imgAlt: imgAlt,
+    });
   };
 
+  handleModalOut(){
+    this.setState({
+      isShowImg: false,
+      superJumboImg: '',
+      imgAlt: ''
+    })
+  }
+
   render() {
+    const isShowImg = this.state.isShowImg;
+    const superJumboImg = this.state.superJumboImg;
+    const imgAlt = this.state.imgAlt;
+
+    let modalComponent = null;
+
+    if(isShowImg){
+      modalComponent = (
+        <Modal
+          onClick={ () => this.handleModalOut() }
+          superJumboURL={superJumboImg}
+          imgAlt={imgAlt}
+        />
+      );
+    }
+
     return (
       <div className="home">
-        <div className="dim">
-           <Modal />
-
-        </div>
+        {modalComponent}
         {
           articlesData.map((data, i) => {
             return <Article
@@ -50,7 +79,7 @@ export default class App extends React.Component {
               key={i}
               thumbnailURL={data.multimedia.length ? data.multimedia[1].url : null}
               publishedDate={data.published_date}
-              onClick={ (e) => this.rendermodal(data.multimedia[data.multimedia.length-1].url, e.target) }
+              onClick={ (e) => this.handleModaln(data.multimedia[data.multimedia.length-1].url, data.multimedia[data.multimedia.length-1].caption) }
             />
           })
         }
