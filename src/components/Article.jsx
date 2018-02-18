@@ -1,5 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import moment from 'moment';
+import 'moment/locale/ko';
 
 export default class Article extends React.Component {
   render() {
@@ -8,7 +9,7 @@ export default class Article extends React.Component {
         {
           this.props.publishedDate &&
           <div className="article-date">
-            <p>{this.props.publishedDate}</p>
+            <p>{moment(this.props.publishedDate).format('LLLL')}</p>
           </div>
         }
         <div className="image-panel">
