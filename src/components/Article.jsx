@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 export default class Article extends React.Component {
+
   render() {
     return (
       <div className="article">
@@ -13,7 +14,7 @@ export default class Article extends React.Component {
         }
         <div className="image-panel">
           {
-            this.props.thumbnailURL && <img src={this.props.thumbnailURL} />
+            this.props.thumbnailURL && <img src={this.props.thumbnailURL} className="img-thumb" onClick = { () => this.props.onClick() } />
           }
           <div>
             <a href={ this.props.url } target="_blank">Link</a>

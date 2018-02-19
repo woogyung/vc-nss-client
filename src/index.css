@@ -19,6 +19,9 @@ h1 {
 }
 
 .home {
+    position:relative;
+}
+.inner-home {
     font-family: serif;
     width: 750px;
     margin: 0 auto;
@@ -48,6 +51,11 @@ h1 {
     border-radius: 2px;
 }
 
+.article .img-thumb {
+    display:block;
+    cursor:pointer;
+}
+
 .article .article-date {
     margin-bottom: 20px;
 }
@@ -73,3 +81,47 @@ h1 {
     color: #424242;
     letter-spacing: -0.5px;
 }
+/* Modal 추가 css */
+.dimmed {
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background:#000;
+    opacity:0.5;
+}
+.home .popup {
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:800px;
+    height:800px;
+    padding:50px;
+    margin:-450px 0 0 -450px;
+}
+.popup .inner-popup {
+    position:relative;
+    width:800px;
+    height:800px;
+}
+.popup .img-popup {
+    display:block;
+    width:100%;
+    height:auto;
+}
+.popup .close {
+    position:absolute;
+    top:-25px;
+    right:0;
+    width:30px;
+    height:25px;
+    line-height:27px;
+    color:#fff;
+    text-decoration:none
+}
+.popup .close:hover {
+    color:#EB3232;
+}
+
+
