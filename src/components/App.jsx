@@ -19,7 +19,6 @@ import Modal from './Modal.jsx';
 // 6. Implement the details
 
 // 7. Test app
-console.log(articlesData); //array
 
 export default class App extends React.Component {
   constructor(props){
@@ -59,9 +58,10 @@ export default class App extends React.Component {
     let modalComponent = null;
 
     if(isShowImg){
+      document.body.scrollIntoView();
       modalComponent = (
         <Modal
-          onClick={ () => this.handleModalOut() }
+          modalClose={ () => this.handleModalOut() }
           superJumboURL={superJumboImg}
           imgAlt={imgAlt}
         />
@@ -79,7 +79,8 @@ export default class App extends React.Component {
               key={i}
               thumbnailURL={data.multimedia.length ? data.multimedia[1].url : null}
               publishedDate={data.published_date}
-              onClick={ (e) => this.handleModaln(data.multimedia[data.multimedia.length-1].url, data.multimedia[data.multimedia.length-1].caption) }
+              onClick={ (e) => {
+                this.handleModaln(data.multimedia[data.multimedia.length-1].url, data.multimedia[data.multimedia.length-1].caption)} }
             />
           })
         }

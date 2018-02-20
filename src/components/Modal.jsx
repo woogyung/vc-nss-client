@@ -4,7 +4,10 @@ import ReactDOM from 'react-dom';
 export default class Modal extends React.Component {
   render() {
     return (
-      <div className="dim">
+      <div className="dim"
+
+        onClick={(ev) => { if (ev.target.tagName !== "IMG") {
+          this.props.modalClose() }}}>
         <div className="modal-wrap">
           <div className="img">
             <img
@@ -12,7 +15,7 @@ export default class Modal extends React.Component {
               alt={this.props.imgAlt}
             />
           </div>
-          <button onClick={this.props.onClick}>X</button>
+          <button onClick={this.props.modalClose}>X</button>
         </div>
       </div>
     )

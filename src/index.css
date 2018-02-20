@@ -75,7 +75,6 @@ h1 {
 }
 
 .dim {
-  /*display: none;*/
   position: absolute;
   left: 0;
   right: 0;
@@ -89,11 +88,12 @@ h1 {
 
 .modal-wrap {
   position: absolute;
-  left: 15%;
-  top: 15%;
-  width: 70%;
-  height: 70%;
+  left: 5%;
+  top: 0%;
+  width: 90%;
+  height: 90%;
   background-color: #fff;
+  z-index: 200;
 }
 
 .modal-wrap .img {
