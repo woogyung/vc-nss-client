@@ -68,7 +68,10 @@ export default class App extends React.Component {
             })
           }
         </div>
-        <Dimmed style = {this.state.dimmedStyle} />
+        <Dimmed 
+          style = {this.state.dimmedStyle}
+          onClose = {this.popUpClose.bind(this)}
+        />
         <Modal 
           style = {this.state.popUpStyle}
           onClose = {this.popUpClose.bind(this)}
