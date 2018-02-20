@@ -24,7 +24,7 @@ export default class App extends React.Component {
 
   popUpClick(i) {
 
-    var test = window.scrollY
+    let scrollTop = window.scrollY
 
     this.setState({
       dimmedStyle: {
@@ -32,13 +32,11 @@ export default class App extends React.Component {
       },
       popUpStyle: {
         display:'block',
-        top:(test + 450) + 'px'
+        top:(scrollTop + 400) + 'px'
       },
-      popUpImg: articlesData[i].multimedia[4].url
+      popUpImg: articlesData[i].multimedia[articlesData[i].multimedia.length - 1].url
     })
-
-    console.log(test)
-
+    
   }
 
   popUpClose() {
@@ -64,8 +62,8 @@ export default class App extends React.Component {
                 key={i}
                 thumbnailURL={data.multimedia.length ? data.multimedia[1].url : null}
                 publishedDate={data.published_date}
-                popUpImg={data.multimedia.length ? data.multimedia[4].url : null}
-                onClick = {this.popUpClick.bind(this, i)} // 왜? bind(this)
+                popUpImg={data.multimedia.length ? data.multimedia[data.multimedia.length - 1].url : null}
+                onClick = {this.popUpClick.bind(this, i)}
               />
             })
           }
