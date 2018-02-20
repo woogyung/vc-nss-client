@@ -5,9 +5,8 @@ export default class Modal extends React.Component {
   render() {
     return (
       <div className="dim"
-
-        onClick={(ev) => { if (ev.target.tagName !== "IMG") {
-          this.props.modalClose() }}}>
+        onClick={(ev) => {if (ev.target.tagName !== "IMG") {
+          this.props.modalClose()}}}>
         <div className="modal-wrap">
           <div className="img">
             <img

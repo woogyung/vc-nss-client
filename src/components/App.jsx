@@ -51,14 +51,13 @@ export default class App extends React.Component {
   }
 
   render() {
-    const isShowImg = this.state.isShowImg;
+    const isShowImg     = this.state.isShowImg;
     const superJumboImg = this.state.superJumboImg;
-    const imgAlt = this.state.imgAlt;
+    const imgAlt        = this.state.imgAlt;
 
     let modalComponent = null;
 
     if(isShowImg){
-      document.body.scrollIntoView();
       modalComponent = (
         <Modal
           modalClose={ () => this.handleModalOut() }
@@ -79,8 +78,7 @@ export default class App extends React.Component {
               key={i}
               thumbnailURL={data.multimedia.length ? data.multimedia[1].url : null}
               publishedDate={data.published_date}
-              onClick={ (e) => {
-                this.handleModaln(data.multimedia[data.multimedia.length-1].url, data.multimedia[data.multimedia.length-1].caption)} }
+              onClick={ () => {this.handleModaln(data.multimedia[data.multimedia.length-1].url, data.multimedia[data.multimedia.length-1].caption)}}
             />
           })
         }
