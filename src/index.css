@@ -73,3 +73,67 @@ h1 {
     color: #424242;
     letter-spacing: -0.5px;
 }
+
+.login-wrap {
+  text-align: center;
+}
+
+.login-wrap > div {
+  margin: 10px 20px 0 20px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.login-wrap h3 {
+  margin: 0;
+  padding: 0;
+  letter-spacing: -1px;
+}
+
+.input-area {
+  margin: 10px 0;
+  letter-spacing: -1px;
+  font-size: 15px;
+}
+
+.input-area label {
+  display: inline-block;
+  min-width: 100px;
+}
+
+.btn {
+  margin: 3px;
+  padding: 10px 20px;
+  border: 1px solid #999;
+  background-color: #eee;
+  border-radius: 3px;
+  box-shadow: 2px 3px 1px rgba(0,0,0,0.2)
+}
+
+.btn:hover {
+  border: 1px solid #787878;
+}
+
+.btn:active {
+  background-color: #e0e0e0;
+}
+
+.uitype-btn {
+  background-color: #464646;
+  font-size: 15px;
+  /*letter-spacing: -1px;*/
+  font-weight: bold;
+  color: #fff;
+}
+.action-btn {
+  width:238px;
+  height: 40px;
+}
+
+.message {
+  display: block;
+  margin-top: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #f02;
+}
