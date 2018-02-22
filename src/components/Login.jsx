@@ -13,16 +13,24 @@ export default class Login extends React.Component {
         >{buttonName}
         </button>
         <div>
-          <form onSubmit={this.props.handleSubmit}>
+          <form
+            onSubmit={this.props.handleSubmit}
+            data-type={this.props.uiType}>
             <h3>{this.props.uiType}</h3>
             <div className="id-area input-area">
               <label>아이디</label>
-              <input type ="text" size="15" ref={ (input) => {this.input = input }}
+              <input
+                type ="text"
+                name="usernameValue"
+                onChange={this.props.handleInputValue}
               />
             </div>
             <div className="pw-area input-area">
               <label>비밀번호</label>
-              <input type ="text" size="15"
+              <input
+                type ="text"
+                name="passwordValue"
+                onChange={this.props.handleInputValue}
               />
             </div>
             <button
@@ -31,7 +39,7 @@ export default class Login extends React.Component {
             >
               {this.props.uiType}
             </button>
-            <span class="message">* {this.props.uiType} 완료되었습니다.</span>
+            <span className="message">{this.props.statusMessage}</span>
           </form>
         </div>
       </div>
