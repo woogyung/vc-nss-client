@@ -1,16 +1,51 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import articlesData from '../config/data.json';
 import Article from './Article.jsx';
 
-var a = 1;
-
 export default class App extends React.Component {
+
+  constructor() {
+      super();
+      this.state = {
+          articles : articlesData,
+          btnNew : null,
+          btnOld : null
+      }
+  }
+
+  sortNews(sortType) {
+    const articles = this.state.articles.slice();
+
+    if(sortType === 'newest') {
+        this.setState({
+            articles : articles,
+            btnNew : "active",
+            btnOld : null
+        });
+        articles.sort(function (a,b) {
+            return new Date(b.published_date) - new Date(a.published_date);
+        });
+    } else {
+        this.setState({
+            articles : articles,
+            btnNew : null,
+            btnOld : "active"
+        });
+        articles.sort(function (a,b) {
+            return new Date(a.published_date) - new Date(b.published_date);
+        });
+    }
+  }
+
   render() {
     return (
       <div className="home">
+          <div className="btns">
+              <button className={this.state.btnNew} onClick={() => this.sortNews('newest')}>Newest</button>
+              <button className={this.state.btnOld} onClick={() => this.sortNews('oldest')}>Oldest</button>
+          </div>
         {
-          articlesData.map((data, i) => {
+          this.state.articles.map((data, i) => {
             return <Article
               url={data.short_url}
               mainHeadline={data.title}

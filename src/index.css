@@ -24,6 +24,33 @@ h1 {
     margin: 0 auto;
 }
 
+.btns {
+    width:710px;
+    margin: 0 auto;
+}
+
+.btns button {
+    width:150px;
+    height:40px;
+    background: #fff;
+    border:1px solid lightgray;
+    color:#b9b7b7;
+    font-weight: bold;
+    box-shadow: 1px 2px lightgray;
+    font-size: 22px;
+    font-family: 'Fugaz One', cursive;
+}
+
+.btns button.active {
+    background:lightgray;
+    color:#fff;
+    box-shadow: 1px 2px #b9b7b7;
+}
+
+.btns button + button {
+  margin-left: 10px;
+}
+
 .article {
     padding: 30px;
     background-color: #fff;
@@ -53,7 +80,8 @@ h1 {
 }
 
 .article .article-date p {
-    font-size: 20px;
+    font-weight:bold;
+    font-size: 16px;
 }
 
 .article .article-panel {
@@ -66,10 +94,11 @@ h1 {
 .article .image-panel {
     display: inline-block;
     width: 150px;
+    text-align: center;
 }
 
 .article p {
-    font: 25px "Lucida Grande", Helvetica, Arial, sans-serif;
+    /* font: 25px "Lucida Grande", Helvetica, Arial, sans-serif; */
     color: #424242;
     letter-spacing: -0.5px;
 }
