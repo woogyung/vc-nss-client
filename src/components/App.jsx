@@ -3,6 +3,7 @@ import articlesData from '../config/data.json';
 import Article from './Article.jsx';
 import axios from 'axios';
 import Login from './Login.jsx';
+import Indicater from './Indicater.jsx';
 
 /* Day 7: Signup, Login, Logout */
 
@@ -23,11 +24,14 @@ export default class App extends React.Component {
     super(props);
     this.renderArticles = this.renderArticles.bind(this);
     this.state = {
+      articlesData: articlesData,
       buttonToggle : true,
       usernameValue: '',
       passwordValue: '',
       message:'',
       loginStatus: '',
+      accessToken: '',
+      isIndicator: false,
     };
   }
 
@@ -47,17 +51,17 @@ export default class App extends React.Component {
   }
 
   renderArticles(){
-    return (
-      articlesData.map((data, i) => {
-        return <Article
-          url={data.short_url}
-          mainHeadline={data.title}
-          key={i}
-          thumbnailURL={data.multimedia.length ? data.multimedia[1].url : null}
-          publishedDate={data.published_date}
-        />
-      })
-    )
+      return (
+        this.state.articlesData.map((data, i) => {
+          return <Article
+            url={data.short_url}
+            mainHeadline={data.title}
+            key={i}
+            thumbnailURL={data.multimedia.length ? data.multimedia[1].url : null}
+            publishedDate={data.published_date}
+          />
+        })
+      );
   }
 
   handleSubmit(e){
@@ -79,6 +83,7 @@ export default class App extends React.Component {
           message: '이미 등록 되었습니다'
         });
       });
+
     }else{
       axios.post('http://localhost:8081/login', {
         username: this.state.usernameValue,
@@ -87,8 +92,9 @@ export default class App extends React.Component {
       .then((response) => {
         console.log(response);
         this.setState({
-          loginStatus : response.statusText,
-          message: ''
+          loginStatus: response.statusText,
+          message: '',
+          accessToken: response.data.access_token
         });
       })
       .catch((error) => {
@@ -100,10 +106,40 @@ export default class App extends React.Component {
     }
   }
 
+  handleCategory(e){
+    const category = e.target.textContent;
+    const indicater = this.state.isIndicator;
+
+    if(this.state.accessToken){
+      if(!indicater){
+        this.setState({
+          isIndicator : true
+        });
+      }
+    }
+    axios.get(`http://localhost:8081/top-stories/${category}`, {
+      headers:{
+        'Authorization': `Bearer ${this.state.accessToken}`
+      }
+    })
+    .then((response) => {
+      console.log(response);
+      this.setState({
+        articlesData : response.data.results,
+        isIndicator : false
+      });
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+  }
+
+
   render() {
     const uiType      = (this.state.buttonToggle) ? '회원가입' : '로그인';
     const message     = this.state.message;
     const loginStatus = this.state.loginStatus;
+    const isIndicator = this.state.isIndicator;
 
     return (
       <div className="home">
@@ -114,6 +150,16 @@ export default class App extends React.Component {
           uiType={uiType}
           statusMessage={message}
         />
+          <nav className="new-navigation">
+          <ul onClick={(e) => this.handleCategory(e)}>
+            <li><a href="#">sports</a></li>
+            <li><a href="#">arts</a></li>
+            <li><a href="#">books</a></li>
+            <li><a href="#">movies</a></li>
+            <li><a href="#">theater</a></li>
+          </ul>
+        </nav>
+        {isIndicator ? <Indicater /> : null}
         {loginStatus ? this.renderArticles() : null}
       </div>
     );
