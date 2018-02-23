@@ -11,67 +11,67 @@ body {
 }
 
 h1 {
-    font-family: 'Fugaz One', cursive;
-    text-align: center;
-    margin-bottom: 50px;
-    color: #03A9F4;
-    font-size: 50px;
+  font-family: 'Fugaz One', cursive;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #03A9F4;
+  font-size: 50px;
 }
 
 .home {
-    font-family: serif;
-    width: 750px;
-    margin: 0 auto;
+  font-family: serif;
+  width: 750px;
+  margin: 0 auto;
 }
 
 .article {
-    padding: 30px;
-    background-color: #fff;
-    margin: 20px;
-    border-radius: 3px;
+  padding: 30px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 3px;
 }
 
 .article a {
-    font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
-    color: #EC407A;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    text-decoration: none;
-    opacity: 0.5;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #EC407A;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  opacity: 0.5;
 }
 
 .article a:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .article img {
-    border-radius: 2px;
+  border-radius: 2px;
 }
 
 .article .article-date {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .article .article-date p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .article .article-panel {
-    display: inline-block;
-    width: calc(100% - 170px);
-    vertical-align: top;
-    padding-left: 20px;
+  display: inline-block;
+  width: calc(100% - 170px);
+  vertical-align: top;
+  padding-left: 20px;
 }
 
 .article .image-panel {
-    display: inline-block;
-    width: 150px;
+  display: inline-block;
+  width: 150px;
 }
 
 .article p {
-    font: 25px "Lucida Grande", Helvetica, Arial, sans-serif;
-    color: #424242;
-    letter-spacing: -0.5px;
+  font: 25px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #424242;
+  letter-spacing: -0.5px;
 }
 
 .login-wrap {
@@ -121,7 +121,6 @@ h1 {
 .uitype-btn {
   background-color: #464646;
   font-size: 15px;
-  /*letter-spacing: -1px;*/
   font-weight: bold;
   color: #fff;
 }

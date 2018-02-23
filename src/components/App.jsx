@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import articlesData from '../config/data.json';
 import Article from './Article.jsx';
 import axios from 'axios';
@@ -40,7 +39,6 @@ export default class App extends React.Component {
   }
 
   handleInputValue(e){
-    console.log(e.target.value);
     const name = e.target.name;
 
     this.setState({
@@ -64,17 +62,13 @@ export default class App extends React.Component {
 
   handleSubmit(e){
     e.preventDefault();
-    console.log(e.target.dataset.type);
 
     if(e.target.dataset.type === '회원가입'){
-      // signup
       axios.post('http://localhost:8081/signup', {
         username: this.state.usernameValue,
         password: this.state.passwordValue
       })
       .then((response) => {
-        console.log(response);
-        console.log(response.data.message);
         this.setState({
           message: response.data.message
         });
@@ -86,7 +80,6 @@ export default class App extends React.Component {
         });
       });
     }else{
-      // login
       axios.post('http://localhost:8081/login', {
         username: this.state.usernameValue,
         password: this.state.passwordValue
@@ -94,7 +87,8 @@ export default class App extends React.Component {
       .then((response) => {
         console.log(response);
         this.setState({
-          loginStatus : response.statusText
+          loginStatus : response.statusText,
+          message: ''
         });
       })
       .catch((error) => {
@@ -107,8 +101,8 @@ export default class App extends React.Component {
   }
 
   render() {
-    const uiType = (this.state.buttonToggle) ? '회원가입' : '로그인';
-    const message = this.state.message;
+    const uiType      = (this.state.buttonToggle) ? '회원가입' : '로그인';
+    const message     = this.state.message;
     const loginStatus = this.state.loginStatus;
 
     return (
@@ -116,7 +110,7 @@ export default class App extends React.Component {
         <Login
           handleInputValue={this.handleInputValue.bind(this)}
           handleSubmit={this.handleSubmit.bind(this)}
-          tittleChange={this.handleUiType.bind(this)}
+          uiTypeChange={this.handleUiType.bind(this)}
           uiType={uiType}
           statusMessage={message}
         />

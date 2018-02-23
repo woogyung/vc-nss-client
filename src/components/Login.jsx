@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 export default class Login extends React.Component {
   render(){
@@ -9,7 +8,7 @@ export default class Login extends React.Component {
       <div className="login-wrap">
         <button
           className="uitype-btn btn"
-          onClick={this.props.tittleChange}
+          onClick={this.props.uiTypeChange}
         >{buttonName}
         </button>
         <div>
