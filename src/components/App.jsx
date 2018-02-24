@@ -47,20 +47,16 @@ export default class App extends React.Component {
   
   render() {
     return ( 
-      <div> 
-        <div>
+      <div className="home"> 
         {
           this.state.showMainImgModal &&
             <Modal
               mainImgURL={this.state.modalImgURL}
               hideModalClick={() => {
                 this.hideModalClick();
-              }} 
+              }}
             />
         }
-        </div>
-        
-        <div className="home">
         {
           articlesData.map((data, i) => {
             return <Article
@@ -74,8 +70,7 @@ export default class App extends React.Component {
               publishedDate={data.published_date}
             />
           })
-        } 
-        </div>  
+        }  
       </div>
     );
   }
