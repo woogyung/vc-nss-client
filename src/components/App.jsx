@@ -17,22 +17,22 @@ export default class App extends React.Component {
     const articles = this.state.articles.slice();
 
     if(sortType === 'newest') {
+        articles.sort(function (a,b) {
+            return new Date(b.published_date) - new Date(a.published_date);
+        });
         this.setState({
             articles : articles,
             btnNew : "active",
             btnOld : null
         });
-        articles.sort(function (a,b) {
-            return new Date(b.published_date) - new Date(a.published_date);
-        });
     } else {
+        articles.sort(function (a,b) {
+            return new Date(a.published_date) - new Date(b.published_date);
+        });
         this.setState({
             articles : articles,
             btnNew : null,
             btnOld : "active"
-        });
-        articles.sort(function (a,b) {
-            return new Date(a.published_date) - new Date(b.published_date);
         });
     }
   }
