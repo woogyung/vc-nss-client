@@ -24,7 +24,7 @@ export default class App extends React.Component {
     super ()
     this.state={
       showMainImgModal: false,
-      modalImgURL: null,
+      modalImgURL: null
     };
   }
   
@@ -33,32 +33,34 @@ export default class App extends React.Component {
     
     this.setState({
       showMainImgModal: true,
-      modalImgURL: imgURL,
+      modalImgURL: imgURL
     });
   }
   
-  hideModalClick() {//버튼과 배경에 동일한 효과 요구됨.
+  hideModalClick() {
     
     this.setState({
       showMainImgModal: false,
-      modalImgURL: null,
+      modalImgURL: null
     });              
   }
   
   render() {
     return ( 
-      <div className="home">
+      <div> 
         <div>
-          {
-            this.state.showMainImgModal &&
+        {
+          this.state.showMainImgModal &&
             <Modal
               mainImgURL={this.state.modalImgURL}
               hideModalClick={() => {
                 this.hideModalClick();
               }} 
             />
-          }
+        }
         </div>
+        
+        <div className="home">
         {
           articlesData.map((data, i) => {
             return <Article
@@ -66,13 +68,14 @@ export default class App extends React.Component {
               mainHeadline={data.title}
               key={i}    
               thumbnailImageClick={() => {
-                this.showMainImgModal(i);
+                this.showMainImgModal(i)
               }}      
               thumbnailURL={data.multimedia.length ? data.multimedia[1].url : null}
               publishedDate={data.published_date}
             />
           })
-        }  
+        } 
+        </div>  
       </div>
     );
   }

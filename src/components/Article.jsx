@@ -12,8 +12,13 @@ export default class Article extends React.Component {
         }
         <div className="image-panel">
           {
-            this.props.thumbnailURL && <img alt="" src={this.props.thumbnailURL} />
-          }
+            this.props.thumbnailURL && 
+            <img 
+              alt=""
+              src={this.props.thumbnailURL}
+              onClick={this.props.thumbnailImageClick}
+            />
+          } 
           <div>
             <a href={ this.props.url } target="_blank">Link</a>
           </div>
