@@ -37,12 +37,20 @@ export default class App extends React.Component {
     });
   }
   
-  hideModalClick() {
-    
+  hideModalButtonClick() {
     this.setState({
       showMainImgModal: false,
       modalImgURL: null
-    });              
+    });
+  }
+  
+  hideModalBackgroundClick(ev) {
+    if (ev.target.tagName !== "img") {
+      this.setState({
+        showMainImgModal: false,
+        modalImgURL: null
+      }); 
+    }
   }
   
   render() {
@@ -52,8 +60,11 @@ export default class App extends React.Component {
           this.state.showMainImgModal &&
             <Modal
               mainImgURL={this.state.modalImgURL}
-              hideModalClick={() => {
-                this.hideModalClick();
+              hideModalButton={() => {
+                this.hideModalButtonClick();
+              }}
+              hideModalBackground={(ev) => {
+                this.hideModalBackgroundClick(ev);
               }}
             />
         }
