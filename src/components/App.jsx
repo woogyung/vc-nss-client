@@ -32,7 +32,6 @@ export default class App extends React.Component {
   }
 
   hideModal() {
-      console.log('close')
       this.setState({
           showModal:false,
           mainImgURL:null
@@ -52,7 +51,6 @@ export default class App extends React.Component {
 
         {
           articlesData.map((data, i) => {
-
             return <Article
               url={data.short_url}
               mainHeadline={data.title}
@@ -62,8 +60,10 @@ export default class App extends React.Component {
                 this.showModal(i);
               }}
               onModalCloseClick={() => {
-                  debugger;
                   this.hideModal();
+              }}
+              onModalClick={() => {
+                  console.log('click')
               }}
               thumbnailURL={data.multimedia.length ? data.multimedia[1].url : null}
               publishedDate={data.published_date}
