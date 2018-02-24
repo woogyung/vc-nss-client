@@ -58,7 +58,7 @@ export default class App extends React.Component {
               <Modal
                   mainImgURL={this.state.mainImgURL}
                   onModalClick={(e) =>
-                      {this.onModalClick(e);}
+                      {this.onModalClick(e)}
                       //props 사용시 해당 컴포넌트에서 사용한는 props는 해당 jsx라인에서만 적어야하는건아닌거 같은데 왜 작동을 안하지..
                   }
                   onCloseClick={() =>
@@ -69,6 +69,7 @@ export default class App extends React.Component {
 
         {
           articlesData.map((data, i) => {
+              //map을 쓰는 이유
             return <Article
               url={data.short_url}
               mainHeadline={data.title}
