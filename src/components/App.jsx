@@ -45,7 +45,9 @@ export default class App extends React.Component {
   }
   
   hideModalBackgroundClick(ev) {
-    if (ev.target.tagName !== "img") {
+    const target = ev.target.tagName;
+    
+    if (ev.target.tagName !== "IMG") {
       this.setState({
         showMainImgModal: false,
         modalImgURL: null
