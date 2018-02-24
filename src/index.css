@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Fugaz+One');
-
 p, h1, body {
     margin: 0;
     padding: 0;
 }
 
 body {
-  background-color: #FFF59D;
-  padding: 50px 0 100px;
+    background-color: #FFF59D;
+    padding: 50px 0 100px;
 }
 
 h1 {
@@ -22,6 +21,33 @@ h1 {
     font-family: serif;
     width: 750px;
     margin: 0 auto;
+}
+
+.btns {
+    width: 710px;
+    margin: 0 auto;
+}
+
+.btns button {
+    width: 150px;
+    height: 40px;
+    background: #fff;
+    border: 1px solid lightgray;
+    color: #b9b7b7;
+    font-weight: bold;
+    box-shadow: 1px 2px lightgray;
+    font-size: 22px;
+    font-family: 'Fugaz One', cursive;
+}
+
+.btns button.active {
+    background: lightgray;
+    color: #fff;
+    box-shadow: 1px 2px #b9b7b7;
+}
+
+.btns button+button {
+    margin-left: 10px;
 }
 
 .article {
@@ -53,7 +79,8 @@ h1 {
 }
 
 .article .article-date p {
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .article .article-panel {
@@ -66,10 +93,49 @@ h1 {
 .article .image-panel {
     display: inline-block;
     width: 150px;
+    text-align: center;
 }
 
 .article p {
-    font: 25px "Lucida Grande", Helvetica, Arial, sans-serif;
+    /* font: 25px "Lucida Grande", Helvetica, Arial, sans-serif; */
     color: #424242;
     letter-spacing: -0.5px;
+}
+
+.fa-3 {
+    font-size: 25px;
+}
+
+.modal_wrapper {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.8);
+}
+
+.modal {
+    box-sizing: border-box;
+    position:relative;
+    top:100px;
+    left:50%;
+    width:80%;
+    padding:50px 30px 30px;
+    margin:0 0 0 -40%;
+    background:#fff;
+}
+
+.main_img img {
+    width:100%;
+}
+
+.modal button {
+    position:absolute;
+    right:0;
+    top:0;
+    padding:10px;
+    border:0;
+    background:none;
 }

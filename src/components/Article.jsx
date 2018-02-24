@@ -1,5 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import moment from 'moment';
+import 'moment/locale/ko'
 
 export default class Article extends React.Component {
   render() {
@@ -8,12 +9,12 @@ export default class Article extends React.Component {
         {
           this.props.publishedDate &&
           <div className="article-date">
-            <p>{this.props.publishedDate}</p>
+            <p>{moment(this.props.publishedDate).format('llll')}</p>
           </div>
         }
         <div className="image-panel">
           {
-            this.props.thumbnailURL && <img src={this.props.thumbnailURL} />
+            this.props.thumbnailURL && <img src={this.props.thumbnailURL} alt="" onClick={this.props.onThumbnailImgClick} />
           }
           <div>
             <a href={ this.props.url } target="_blank">Link</a>
