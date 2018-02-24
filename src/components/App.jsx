@@ -1,17 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import articlesData from '../config/data.json';
 import Article from './Article.jsx';
+import Modal from './Modal.jsx';
 
 /* Day 5: Creating a Modal UI Component */
 
-// 1. Making a decision if we need a new component
+// 1. Making a decision if we need a new component 
 
-// 2. Making a decision where to place the new component
+// 2. Making a decision where to place the new component 
 
-// 3. Creating a new component class
+// 3. Creating a new component class 
 
-// 4. Decide if the component needs any props or states
+// 4. Decide if the component needs any props or states 
 
 // 5. Render the basics
 
@@ -20,20 +20,59 @@ import Article from './Article.jsx';
 // 7. Test app
 
 export default class App extends React.Component {
+  constructor () {
+    super ()
+    this.state={
+      showMainImgModal: false,
+      modalImgURL: null,
+    };
+  }
+  
+  showMainImgModal(i) {
+    const imgURL = articlesData[i].multimedia[4].url;
+    
+    this.setState({
+      showMainImgModal: true,
+      modalImgURL: imgURL,
+    });
+  }
+  
+  hideModalClick() {//버튼과 배경에 동일한 효과 요구됨.
+    
+    this.setState({
+      showMainImgModal: false,
+      modalImgURL: null,
+    });              
+  }
+  
   render() {
-    return (
+    return ( 
       <div className="home">
+        <div>
+          {
+            this.state.showMainImgModal &&
+            <Modal
+              mainImgURL={this.state.modalImgURL}
+              hideModalClick={() => {
+                this.hideModalClick();
+              }} 
+            />
+          }
+        </div>
         {
           articlesData.map((data, i) => {
             return <Article
               url={data.short_url}
               mainHeadline={data.title}
-              key={i}
+              key={i}    
+              thumbnailImageClick={() => {
+                this.showMainImgModal(i);
+              }}      
               thumbnailURL={data.multimedia.length ? data.multimedia[1].url : null}
               publishedDate={data.published_date}
             />
           })
-        }
+        }  
       </div>
     );
   }
