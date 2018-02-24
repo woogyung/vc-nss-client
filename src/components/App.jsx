@@ -31,11 +31,15 @@ export default class App extends React.Component {
       })
   }
 
-  hideModal() {
-      this.setState({
-          showModal:false,
-          mainImgURL:null
-      })
+  onModalClick(e) {
+      const target = e.target;
+      if (target.className === 'modal_wrapper' || target.className === 'btn_close' || target.parentElement.className === 'btn_close') {
+          // 이런식으로 dom요소를 잡아서 써도되는것인가
+          this.setState({
+              showModal:false,
+              mainImgURL:null
+          })
+      }
   }
 
   render() {
@@ -46,6 +50,10 @@ export default class App extends React.Component {
               this.state.showModal &&
               <Modal
                   mainImgURL={this.state.mainImgURL}
+                  onModalClick={(e) => {
+                      this.onModalClick(e);
+                      //props 사용시 해당 컴포넌트에서 사용한는 props는 해당 jsx라인에서만 적어야하는건아닌거 같은데 왜 작동을 안하지..
+                  }}
               />
           }
 
@@ -58,12 +66,6 @@ export default class App extends React.Component {
               jumboImgURL={data.multimedia.length ? data.multimedia[4].url : null}
               onThumbnailImgClick={() => {
                 this.showModal(i);
-              }}
-              onModalCloseClick={() => {
-                  this.hideModal();
-              }}
-              onModalClick={() => {
-                  console.log('click')
               }}
               thumbnailURL={data.multimedia.length ? data.multimedia[1].url : null}
               publishedDate={data.published_date}
