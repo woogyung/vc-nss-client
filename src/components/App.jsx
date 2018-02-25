@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import articlesData from '../config/data.json';
 import Article from './Article.jsx';
 import axios from 'axios';
+import Login from './Login.jsx';
 
 /* Day 7: Signup, Login, Logout */
 
@@ -20,7 +21,7 @@ import axios from 'axios';
 
 export default class App extends React.Component {
   render() {
-    return (
+    return (     
       <div className="home">
         {
           articlesData.map((data, i) => {
