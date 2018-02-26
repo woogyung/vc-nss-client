@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Login extends React.Component {
+export default class signup extends React.Component {
   render() {
     return (
       <div className="login-wrap">
@@ -16,7 +16,6 @@ export default class Login extends React.Component {
               placeholder="Id"
               onChange={this.props.inputData}
             >
-              {this.props.inputData}
             </input>
           </div>
           <div className="pw-field">
@@ -30,14 +29,10 @@ export default class Login extends React.Component {
         </div>
         
         <div className="button-area">
-          <button type="submit" className="login" onClick={this.props.loginButtonClick}>
+          <button type="submit" className="login" onClick={this.props.signupButtonClick}>
             {this.props.title}
           </button>  
-          
-          <p className="join" onClick={this.props.signupTypeClick}>
-            {this.props.signupType}
-          </p>  
-        </div>
+        </div>  
         
       </div>
     )
