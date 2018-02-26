@@ -4,26 +4,37 @@ export default class Login extends React.Component {
   render() {
     return (
       <div className="login-wrap">
-        <h1>NSS Login</h1>
+        <h1>{this.props.title}</h1>
         
         <div className="login-field">
-          <div className="id-field">
-            <span> ID </span> 
-            <input type="text"></input>
+          <div className="id-field"> 
+            <input 
+              type="text"
+              placeholder="Id"
+            >
+
+            </input>
           </div>
           <div className="pw-field">
-            <span> PW </span>
-            <input type="text"></input> 
+            <input 
+              type="text"
+              placeholder="Password"
+            >
+
+            </input> 
           </div> 
         </div>
         
-        <div>
-          <button className="login">Login</button>
+        <div className="button-area">
+          <button type="submit" className="login" onClick={this.props.currentTypeClick}>
+            {this.props.currentType}
+          </button>  
+          
+          <p className="join" onClick={this.props.otherTypeClick}>
+            {this.props.otherType}
+          </p>  
         </div>  
         
-        <div className="join">
-          <p>→ Sign up</p>
-        </div>
       </div>
     )
   }
