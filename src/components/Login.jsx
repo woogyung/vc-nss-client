@@ -8,11 +8,11 @@ export default class Login extends React.Component {
               <fieldset>
                   <legend>로그인 화면 입니다.</legend>
                   <div className="box-inform">
-                    <span className="txt-inform">ID</span>
+                    <label for="logId" className="txt-inform">ID</label>
                     <input id="logId" type="text" className = "inp-inform" />
                   </div>
                   <div className="box-inform">
-                    <span className="txt-inform">Password</span>
+                    <label for="logPassword" className="txt-inform">Password</label>
                     <input id="logPassword" type="password" className ="inp-inform" />
                   </div>
                   <div className="box-button">
