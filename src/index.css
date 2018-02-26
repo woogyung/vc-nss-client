@@ -73,3 +73,66 @@ h1 {
     color: #424242;
     letter-spacing: -0.5px;
 }
+
+/* 로그인 추가 */
+.login {
+    width:220px;
+    padding:15px;
+    margin:0 auto;
+}
+.login fieldset {
+    margin:0;
+    padding:0;
+    border:0;
+}
+.login legend {
+    overflow:hidden;
+    position:absolute;
+    width:0;
+    height:0;
+    line-height:0;
+    font-size:1px;
+    text-indent:-9999px;
+}
+.login .box-inform {
+    padding-top:15px;
+    font-size:17px;
+}
+.login .txt-inform {
+    display:block;
+    height:25px;
+    padding-top:7px;
+}
+.login .inp-inform {
+    display:block;
+    width:212px;
+    height:26px;
+    font-size:17px;
+}
+.login .box-button {
+    overflow:hidden;
+    width:225px;
+    padding-top:15px;
+    margin:0 auto;
+}
+.login .btn {
+    float:left;
+    width:55px;
+    height:30px;
+    margin:0 7px 0 8px;
+    border:1px solid #ddd;
+    border-radius:5px;
+    font-size:15px;
+    cursor:pointer;
+}
+.login .join {
+    width:70px;
+}
+.login .message {
+    display:none;
+    padding-top:15px;
+    font-size:15px;
+    color:#ff0000;
+    text-align:center;
+}
+
