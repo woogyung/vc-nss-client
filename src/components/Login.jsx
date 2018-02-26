@@ -9,7 +9,9 @@ export default class Login extends React.Component {
             loginId : "",
             loginPw : "",
             joinId : "",
-            joinPw : ""
+            joinPw : "",
+            joinValidationTxt : "",
+            loginValidationTxt : ""
         }
     }
 
@@ -22,26 +24,85 @@ export default class Login extends React.Component {
         });
     }
 
-    submitLogin() {
+    validate(type) {
+        var validId = null;
+        var validPw = null;
+        var valResult = null;
+
+        if (type === 'submitJoin') {
+            validId = this.state.joinId;
+            validPw = this.state.joinPw;
+
+        } else if (type === 'submitLogin') {
+            validId = this.state.loginId;
+            validPw = this.state.loginPw;
+        }
+
+        if(validId && validPw) {
+            return true;
+        } else if(!validId && !validPw) {
+
+            valResult ="id, pw를 입력해주세요"
+            return false;
+
+        } else if (!validId) {
+
+            valResult = "id를 입력해주세요";
+            return false;
+
+        } else if (!validPw) {
+
+            valResult = "pw를 입력해주세요";
+            return false;
+
+        }
+
+        if (type === 'submitJoin') {
+            this.setState({
+                joinValidationTxt : valResult
+            })
+
+        } else if (type === 'submitLogin') {
+            this.setState({
+                loginValidationTxt : valResult
+            })
+        }
 
     }
 
-    submitJoin() {
-        console.log(this.state.joinId,this.state.joinPw)
-        // if(this.state.joinId && this.state.joinPw) {
-        //
-        // }
-        // axios.post('http://localhost:8081/signup', {
-        //     username :  joinId,
-        //     password : joinPw
-        // })
-        // .then(function (response) {
-        //     console.log(response);
-        // })
-        // .catch(function (error) {
-        //     console.log(error);
-        // });
+    submitJoin(e) {
+        e.preventDefault();
+        if(this.validate('submitJoin')){
+            axios.post('http://localhost:8081/signup', {
+                username : this.state.joinId,
+                password : this.state.joinPw
+            })
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            })
+        }
     }
+
+    submitLogin(e) {
+        e.preventDefault();
+         if(this.validate('submitLogin')){
+             axios.post('http://localhost:8081/login', {
+                 username : this.state.joinId,
+                 password : this.state.joinPw
+             })
+             .then(function (response) {
+                 console.log(response);
+             })
+             .catch(function (error) {
+                 console.log(error);
+             })
+         }
+    }
+
+
 
   render() {
     return (
@@ -50,18 +111,19 @@ export default class Login extends React.Component {
             <form>
                 <fieldset>
                     <legend>login</legend>
-                        <dl>
-                            <dt>login</dt>
-                            <dd>
-                                <label><input type="text" value={this.state.loginId} name="loginId" onChange={this.handleChange.bind(this)} /></label>
-                            </dd>
-                            <dt>password</dt>
-                            <dd>
-                                <label><input type="password" value={this.state.loginPw} name="loginPw" onChange={this.handleChange.bind(this)} /></label>
-                            </dd>
-                        </dl>
+                    <dl>
+                        <dt>login</dt>
+                        <dd>
+                            <label><input type="text" value={this.state.loginId} name="loginId" onChange={this.handleChange.bind(this)} /></label>
+                        </dd>
+                        <dt>password</dt>
+                        <dd>
+                            <label><input type="password" value={this.state.loginPw} name="loginPw" onChange={this.handleChange.bind(this)} /></label>
+                        </dd>
+                    </dl>
+                    <p className="validate_txt">{this.state.loginValidationTxt}</p>
                     <button type="submit" onClick={this.submitLogin.bind(this)}>로그인</button>
-                    <a href="#">회원가입</a>
+                    <a href="">회원가입</a>
                 </fieldset>
             </form>
         </div>
@@ -78,6 +140,7 @@ export default class Login extends React.Component {
                         <dt>password</dt>
                         <dd><label><input type="password" value={this.state.joinPw} name="joinPw" onChange={this.handleChange.bind(this)} /></label></dd>
                     </dl>
+                    <p className="validate_txt">{this.state.joinValidationTxt}</p>
                     <button type="submit" onClick={this.submitJoin.bind(this)}>회원가입</button>
                 </fieldset>
             </form>

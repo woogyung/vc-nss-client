@@ -1,9 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import articlesData from '../config/data.json';
 import Article from './Article.jsx';
 import Login from './Login.jsx';
-import axios from 'axios';
 
 /* Day 7: Signup, Login, Logout */
 // 1. Create Login Form UI Component
