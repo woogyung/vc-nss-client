@@ -136,3 +136,9 @@ input {
    font-size: 15px;
    color: #a0a0a0;
 }
+
+.message-status {
+   font-size: 13px;
+   color: #000;
+   margin-bottom: 10px;
+}

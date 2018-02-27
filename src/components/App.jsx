@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import articlesData from '../config/data.json';
 import Article from './Article.jsx';
 import Login from './Login.jsx';
@@ -22,60 +21,73 @@ import axios from 'axios';
 
 export default class App extends React.Component {  
   constructor () {
-    super ()
+    super();
     
-    const loginType = "login";
-    const signupType = "sign up";
     const messageType = "Welcome!"; 
     
     this.state={
       showLogin: true,
       showSignup: false,
-      title: loginType,
-      currentType: loginType,
-      otherType: signupType,
       message: messageType,
-      usernameData: "",
-      passwordData: "",
-    }
+      username: "",
+      password: ""
+    };
   }
   
-  inputData(ev) {
+  onChangeUsernameData(ev) {
+    console.log(ev.target.value);
     this.setState({
-      usernameData: ev.target.value,
-      passwordData: ev.target.value,
-    })
+      username: ev.target.value,
+      password: ev.target.value
+    });
+  }
+  
+  onChangePasswordData(ev) {
+        console.log(ev.target.value);
+    this.setState({
+      username: ev.target.value,
+      password: ev.target.value
+    });
   }
   
   showSignup () { 
-    const loginType = "login";
-    const signupType = "sign up";
     const messageType = "Welcome!";  
     
     this.setState ({
       showLogin: false,
       showSignup: true,
-      title: signupType,
-      currentType: signupType,
-      otherType: null,
       message: messageType,
-      usernameData: "",
-      passwordData: "",
+      username: "",
+      password: ""
     });
   }
   
-  onLoginType(ev) {
+  showLogin () { 
+    const messageType = "Welcome!";  
     
+    this.setState ({
+      showLogin: true,
+      showSignup: false,
+      message: messageType,
+      username: "",
+      password: ""
+    });
+  }
+  
+  onLoginType() {
     axios.post("http://localhost:8081/login", {
-      username: this.state.usernameData,
-      password: this.state.passwordData,
+      username: this.state.username,
+      password: this.state.password,
     })
     .then((response) => {
        console.log("성공");
       
        this.setState({
          showLogin: false,
+         showSignup: false,
          message: response.data.message,
+         username: "",
+         password: ""
        });
     })
     .catch((error) => {
@@ -83,23 +95,28 @@ export default class App extends React.Component {
 
       this.setState ({
         showLogin: true,
+        showSignup: false,
         message: error.response.data.message,
-    });
+        username: "",
+        password: ""
+      });
     })
   }
   
-  onSignupType(ev) {
-    
+  onSignupType() {
     axios.post("http://localhost:8081/signup", {
-      username: this.state.usernameData,
-      password: this.state.passwordData,
+      username: this.state.username,
+      password: this.state.password,
     })
     .then((response) => {
        console.log("성공");
       
        this.setState({
-         showLogin: true,
+         showLogin: false,
+         showSignup: true,
          message: response.data.message,
+         username: "",
+         password: ""
        });
     })
     .catch((error) => {
@@ -107,8 +124,11 @@ export default class App extends React.Component {
       
       this.setState ({
         showLogin: false,
+        showSignup: true,
         message: error.response.data.message,
-    });
+        username: "",
+        password: ""
+      });
     })
   }  
   
@@ -118,29 +138,27 @@ render() {
         {
           this.state.showLogin &&
             <Login
-              title={this.state.title}
               message={this.state.message}
-              inputIdField={this.inputData.bind(this)}
-              inputPwField={this.inputData.bind(this)}
-              signupType={this.state.otherType}
-              signupTypeClick={this.showSignup.bind(this)}
-              loginButtonClick={this.onLoginType.bind(this)}  
-            />
-        }
-        {
-          !this.state.showLogin &&
-            <Signup
-              title={this.state.title}
-              message={this.state.message}
-              inputIdField={this.inputData.bind(this)}
-              inputPwField={this.inputData.bind(this)}
-              signupType={this.state.otherType}
-              signupButtonClick={this.onSignupType.bind(this)}  
+              usernameData={this.onChangeUsernameData.bind(this)}
+              passwordData={this.onChangePasswordData.bind(this)}
+              loginButtonClick={this.onLoginType.bind(this)} 
+              signupTypeClick={this.showSignup.bind(this)} 
             />
         }
         
         {
-          (!this.state.showLogin && this.state.showSignin) &&
+          (!this.state.showLogin && this.state.showSignup) &&
+            <Signup
+              message={this.state.message}
+              usernameData={this.onChangeUsernameData.bind(this)}
+              passwordData={this.onChangePasswordData.bind(this)}
+              signupButtonClick={this.onSignupType.bind(this)}
+              loginTypeClick={this.showLogin.bind(this)}
+            />
+        }
+        
+        {
+          (!this.state.showLogin && !this.state.showSignup) &&
             <div className="home">
               {
                 articlesData.map((data, i) => {
