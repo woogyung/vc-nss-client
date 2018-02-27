@@ -73,3 +73,11 @@ h1 {
     color: #424242;
     letter-spacing: -0.5px;
 }
+
+.greetings img {
+    width:100px;
+}
+
+.greetings span {
+    font-weight: bold;
+}
