@@ -13,13 +13,14 @@ import Modal from './Modal.jsx';
 // 7. Test app
 
 export default class App extends React.Component {
+
    constructor(){
        super();
 
-       this.state=({
+       this.state= {
            showModal:false,
            mainImgURL:null
-       })
+       };
    }
 
   showModal(i) {
@@ -33,6 +34,7 @@ export default class App extends React.Component {
 
   onModalClick(e) {
       const target = e.target;
+
       if (target.className === 'modal_wrapper') {
           this.setState({
               showModal:false,
@@ -42,6 +44,7 @@ export default class App extends React.Component {
   }
 
   onCloseClick() {
+
       this.setState({
           showModal:false,
           mainImgURL:null
@@ -71,7 +74,6 @@ export default class App extends React.Component {
               url={data.short_url}
               mainHeadline={data.title}
               key={i}
-              jumboImgURL={data.multimedia.length ? data.multimedia[4].url : null}
               onThumbnailImgClick={() => {
                 this.showModal(i);
               }}
