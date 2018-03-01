@@ -75,7 +75,6 @@ export default class Login extends React.Component {
                 }
             })
             .catch(function (error) {
-                console.log(error);
                 that.setState({
                     submitResult : "id와 password를 확인해주세요"
                 });
@@ -84,27 +83,26 @@ export default class Login extends React.Component {
     }
 
     submitLogin(e) {
-        const that = this;
         e.preventDefault();
          if(this.validate('submitLogin')){
              axios.post('http://localhost:8081/login', {
                  username : this.state.userId,
                  password : this.state.userPw
              })
-             .then(function (response) {
+             .then( (response) => {
                  if(response.status === 200) {
                      const userId = response.data.data.username;
-                     that.setState({
+                     this.setState({
                          loginFormShow : false,
                          joinFormShow : false,
                          isLoggedIn : true,
                          userId : userId
                      });
-                    that.props.checkLogin();
+                    this.props.checkLogin();
                  }
              })
-             .catch(function (error) {
-                 that.setState({
+             .catch( (error) => {
+                 this.setState({
                      submitResult : "id와 password를 확인해주세요"
                  });
              })
@@ -150,7 +148,7 @@ export default class Login extends React.Component {
                             </dd>
                         </dl>
                         <p className="validate_txt">{this.state.submitResult}</p>
-                        <button type="submit" onClick={this.submitLogin.bind(this)}>로그인</button>
+                        <button type="submit" onClick={(e) => this.submitLogin(e)}>로그인</button>
                         <a href="" onClick={this.joinBtnClick.bind(this)}>회원가입</a>
                     </fieldset>
                 </form>
