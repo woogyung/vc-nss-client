@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+@import url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css);
 
 p, h1, body {
     margin: 0;
@@ -80,4 +81,59 @@ h1 {
 
 .greetings span {
     font-weight: bold;
+}
+.account_form {
+    width:350px;
+    padding:30px 20px;
+    margin:0 auto;
+    background:#fff;
+    font-family: 'Noto Sans Korean', sans-serif;
+}
+fieldset {
+    border: 0;
+}
+legend {
+    width:100%;
+    border-bottom: 1px solid #000;
+}
+.account_form  button,
+.account_form  a {
+    box-sizing: border-box;
+    display: block;
+    width:100%;
+    height:50px;
+    padding:0;
+    margin:10px 0;
+    border:1px solid grey;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color:#000;
+    background:#fff;
+    font-size:15px;
+    font-family: 'Noto Sans Korean', sans-serif;
+}
+.account_form dt {
+    font-size: 12px;
+}
+.account_form dd {
+    margin:10px 0;
+}
+.account_form input {
+    box-sizing: border-box;
+    width:100%;
+    height:35px;
+    padding:5px;
+}
+.account_form  button {
+    background:#231f20;
+    color:#fff;
+}
+
+.account_form  a {
+    border:0;
+}
+
+.greetings {
+    text-align: center;
 }

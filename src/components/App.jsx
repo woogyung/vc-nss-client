@@ -12,12 +12,29 @@ import Login from './Login.jsx';
 // 6. Test app
 
 export default class App extends React.Component {
+    constructor() {
+        super();
+
+        this.state = {
+            loginComplete : false
+        }
+    }
+
+    checkLoginState(e){
+        var a = this.state.isLoggedIn;
+
+        console.log(e.target,this.state.isLoggedIn)
+        console.log(a);
+        return a;
+     }
+
   render() {
     return (
       <div className="home">
-          <Login />
+          <Login checkLogin={this.checkLoginState} getState={this.state.loginComplete} />
         {
-          articlesData.map((data, i) => {
+            console.log(this.state.loginComplete) &&
+            articlesData.map((data, i) => {
             return <Article
               url={data.short_url}
               mainHeadline={data.title}
