@@ -16,11 +16,11 @@ export default class Article extends React.Component {
             this.props.thumbnailURL && <img src={this.props.thumbnailURL} />
           }
           <div>
-            <a href={ this.props.url } target="_blank">Link</a>
+            <a href={this.props.url} target="_blank">Link</a>
           </div>
         </div>
         <div className="article-panel">
-          <p>{ this.props.mainHeadline }</p>
+          <p>{this.props.mainHeadline}</p>
         </div>
       </div>
     );

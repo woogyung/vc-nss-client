@@ -8,7 +8,7 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       articlesData : articlesData,
-    }
+    };
   };
 
   asending(){
@@ -33,9 +33,7 @@ export default class App extends React.Component {
     this.setState({
       articlesData: articlesCopy
     });
-
   }
-
 
   render() {
     return (
