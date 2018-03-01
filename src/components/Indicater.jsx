@@ -5,10 +5,9 @@ export default class Indicater extends React.Component {
     return(
       <div className="lds-css ng-scope">
         <div className="lds-spin">
-          <div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div>
+          {new Array(8).fill(<div><div></div></div>)} 
         </div>
       </div>
     );
   }
-
 }

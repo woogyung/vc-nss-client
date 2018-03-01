@@ -29,7 +29,6 @@ export default class App extends React.Component {
       usernameValue: '',
       passwordValue: '',
       message:'',
-      loginStatus: '',
       accessToken: '',
       isIndicator: false,
     };
@@ -51,17 +50,17 @@ export default class App extends React.Component {
   }
 
   renderArticles(){
-      return (
-        this.state.articlesData.map((data, i) => {
-          return <Article
-            url={data.short_url}
-            mainHeadline={data.title}
-            key={i}
-            thumbnailURL={data.multimedia.length ? data.multimedia[1].url : null}
-            publishedDate={data.published_date}
-          />
-        })
-      );
+    return (
+      this.state.articlesData.map((data, i) => {
+        return <Article
+          url={data.short_url}
+          mainHeadline={data.title}
+          key={i}
+          thumbnailURL={data.multimedia.length ? data.multimedia[1].url : null}
+          publishedDate={data.published_date}
+        />
+      })
+    );
   }
 
   handleSubmit(e){
@@ -74,7 +73,9 @@ export default class App extends React.Component {
       })
       .then((response) => {
         this.setState({
-          message: response.data.message
+          message: response.data.message,
+          username: '',
+          password: '',
         });
       })
       .catch((error) => {
@@ -92,9 +93,10 @@ export default class App extends React.Component {
       .then((response) => {
         console.log(response);
         this.setState({
-          loginStatus: response.statusText,
           message: '',
-          accessToken: response.data.access_token
+          accessToken: response.data.access_token,
+          username: '',
+          password: '',
         });
       })
       .catch((error) => {
@@ -117,6 +119,7 @@ export default class App extends React.Component {
         });
       }
     }
+    
     axios.get(`http://localhost:8081/top-stories/${category}`, {
       headers:{
         'Authorization': `Bearer ${this.state.accessToken}`
@@ -138,7 +141,7 @@ export default class App extends React.Component {
   render() {
     const uiType      = (this.state.buttonToggle) ? '회원가입' : '로그인';
     const message     = this.state.message;
-    const loginStatus = this.state.loginStatus;
+    const accessToken = this.state.accessToken;
     const isIndicator = this.state.isIndicator;
 
     return (
@@ -159,8 +162,9 @@ export default class App extends React.Component {
             <li><a href="#">theater</a></li>
           </ul>
         </nav>
+        
         {isIndicator ? <Indicater /> : null}
-        {loginStatus ? this.renderArticles() : null}
+        {accessToken ? this.renderArticles() : null}
       </div>
     );
   }
