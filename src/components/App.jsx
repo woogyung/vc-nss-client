@@ -28,24 +28,22 @@ export default class App extends React.Component {
   onClickSection(ev) {
     const sectionName = ev.target.textContent;
     
-    axios.get(`http://localhost:8081/top-stories/${sectionName}`,
-//      headers: {
-//        'AuthoriZation': 'Bearer '        
-//      }         
-    )
-    
-      .than((response) => {
+    axios.get(`http://localhost:8081/top-stories/${sectionName}`, {
+      headers: {
+        'Authorization': 'Bearer ghs__df=423njsfdruur12jfjuh4!?frt34563ju8h84h2d10' 
+      }
+    })
+      .then((response) => {
         console.log('성공');
         this.setState({
           articlesData: response.data.results
         });
-      
       })
       .catch((error) => {
         console.log('실패');
         this.setState({
-          articlesData: response.data.results
-        })
+          articlesData: articlesData
+        });
       })
   }
   
@@ -59,7 +57,8 @@ export default class App extends React.Component {
           <li>business</li>
           <li>tmagazine</li>
         </ul>  
-      </div>  
+      </div> 
+        
         {
           this.state.articlesData.map((data, i) => {
             return <Article
