@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import articlesData from '../config/data.json';
 import Article from './Article.jsx';
-import Login from './Login.jsx'
 import axios from 'axios';
 
 /* Day 7: Signup, Login, Logout */
@@ -19,97 +18,110 @@ import axios from 'axios';
 
 // 6. Test app
 
-const logInfo = {
-    userName: '',
-    passWord: ''
-};
-
 export default class App extends React.Component {
-  
   constructor() {
     super();
-    
     this.state = {
-        style: {
-          display:'none'
-        },
-        logInfoMessage:'',
-        logIn: false
+      username:'',
+      password:'',
+      isLogin:false,
+      informMessage:'',
+      messageStyle: {
+        display:'',
+        color:''
+      }
     }
-  };
-  
-  onConfirm() {
-    const loginValue = document.querySelectorAll('.inp-inform');
-    
-    for(let i = 0; i < loginValue.length; i++) {
-        logInfo.userName = loginValue[0].value;
-        logInfo.passWord = loginValue[1].value;
-    };
-    
+  }
+
+  onUserNameChange (ev) {
+    this.setState({
+      username: ev.target.value
+    });
+  }
+
+  onPassWordChange (ev) {
+    this.setState({
+      password: ev.target.value
+    })
+  }
+
+  onLogin () {
     axios.post('http://localhost:8081/login', {
-      username: logInfo.userName,
-      password: logInfo.passWord
+      username:this.state.username,
+      password:this.state.password
     })
-    .then((response) => {
+    .then((response) => {    
       this.setState({
-        login:true
-      })
+        password:'',
+        isLogin:true,
+      });
+      console.log(response.data.message)
     })
-    .catch((error) => {
+    .catch((error)=>{
       this.setState({
-          style: {
-            display:'block',
-            color: '#DF013A'
-          },
-          logInfoMessage: error.response.data.message
-        });
+        username:'',
+        password:'',
+        informMessage:error.response.data.message,
+        messageStyle: {
+          display:'block',
+          color:'red'
+        }
+      });
     });
   }
 
   onJoin () {
-    const loginValue = document.querySelectorAll('.inp-inform');
-
-    for(let i = 0; i < loginValue.length; i++) {
-        logInfo.userName = loginValue[0].value;
-        logInfo.passWord = loginValue[1].value;
-    };
-
     axios.post('http://localhost:8081/signup', {
-        username: logInfo.userName,
-        password: logInfo.passWord
+      username: this.state.username,
+      password: this.state.password
     })
-    .then( (response) => {
-        this.setState({
-          style: {
-            display:'block',
-            color: '#2E2EFE'
-          },
-          logInfoMessage: response.data.message,
-          login:true
-        });
-    })
-    .catch( (error) => {
+    .then(() => {    
       this.setState({
-          style: {
-            display:'block',
-            color: '#DF013A'
-          },
-          logInfoMessage: error.response.data.message
-        });
+        password:'',
+        isLogin:true,
+      });
+    })
+    .catch((error) => {
+      this.setState({
+        username:'',
+        password:'',
+        informMessage:error.response.data.message,
+        messageStyle: {
+          display:'block',
+          color:'red'
+        }
+      });
     });
-  };
-  
+  }
+
   render() {
     return (
       <div className="home">
-        { 
-          !this.state.login && <Login 
-            logInfoMessage = { this.state.logInfoMessage }
-            style = { this.state.style}
-            onJoin ={ this.onJoin.bind(this)}
-            onConfirm = { this.onConfirm.bind(this) }
-          /> ||
-          this.state.login && articlesData.map((data, i) => {
+      { !this.state.isLogin &&
+        <div className="login">
+            <form action="#">
+              <fieldset>
+                  <legend>로그인 화면 입니다.</legend>
+                  <div className="box-inform">
+                    <label htmlFor="logId" className="txt-inform">ID</label>
+                    <input id="logId" type="text" className = "inp-inform" onChange = { this.onUserNameChange.bind(this) } />
+                  </div>
+                  <div className="box-inform">
+                    <label htmlFor="logPassword" className="txt-inform">Password</label>
+                    <input id="logPassword" type="password" className ="inp-inform" onChange = { this.onPassWordChange.bind(this) } />
+                  </div>
+                  <div className="box-button">
+                    <button type="submit" className="btn" onClick={ this.onLogin.bind(this) }>확인</button>
+                    <button type="reset" className="btn">취소</button>
+                    <button type="submit" className="btn join" onClick={ this.onJoin.bind(this) }>회원가입</button>
+                  </div>
+                  <p style={this.state.messageStyle} className="message">{ this.state.informMessage }</p>
+              </fieldset>
+            </form>
+          </div>
+        }
+        { this.state.isLogin &&
+          articlesData.map((data, i) => {
             return <Article
               url={data.short_url}
               mainHeadline={data.title}
