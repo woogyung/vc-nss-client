@@ -43,12 +43,12 @@ export default class Login extends React.Component {
            if (type === 'submitJoin') {
                this.setState({
                    submitResult : valResult
-               })
+               });
                return false;
            } else if (type === 'submitLogin') {
                this.setState({
                    submitResult : valResult
-               })
+               });
                return false;
            }
         }
@@ -71,14 +71,14 @@ export default class Login extends React.Component {
                         userId : "",
                         userPw : "",
                         submitResult : "회원가입에 성공하였습니다. 로그인해주세요"
-                    })
+                    });
                 }
             })
             .catch(function (error) {
                 console.log(error);
                 that.setState({
                     submitResult : "id와 password를 확인해주세요"
-                })
+                });
             })
         }
     }
@@ -99,14 +99,14 @@ export default class Login extends React.Component {
                          joinFormShow : false,
                          isLoggedIn : true,
                          userId : userId
-                     })
-                     that.props.loginResult = true;
+                     });
+                    that.props.checkLogin();
                  }
              })
              .catch(function (error) {
                  that.setState({
                      submitResult : "id와 password를 확인해주세요"
-                 })
+                 });
              })
          }
     }
@@ -117,7 +117,7 @@ export default class Login extends React.Component {
             loginFormShow : false,
             joinFormShow : true,
             submitResult : ""
-        })
+        });
     }
 
     loginBtnClick(e) {
@@ -126,7 +126,7 @@ export default class Login extends React.Component {
             loginFormShow : true,
             joinFormShow : false,
             submitResult : ""
-        })
+        });
     }
 
   render() {
@@ -187,7 +187,6 @@ export default class Login extends React.Component {
                     <span>{this.state.userId}</span>
                     님 안녕하세요!
                 </div>
-                <div><button onClick={this.props.checkLogin.bind(this)}>목록보기</button></div>
             </div>
         }
 
