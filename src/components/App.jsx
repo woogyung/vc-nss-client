@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import articlesData from '../config/data.json';
 import Article from './Article.jsx';
+import Login from './Login.jsx';
 import axios from 'axios';
 
 /* Day 7: Signup, Login, Logout */
@@ -25,11 +26,8 @@ export default class App extends React.Component {
       username:'',
       password:'',
       isLogin:false,
-      informMessage:'',
-      messageStyle: {
-        display:'',
-        color:''
-      }
+      isError:false,
+      informMessage:''
     }
   }
 
@@ -37,12 +35,14 @@ export default class App extends React.Component {
     this.setState({
       username: ev.target.value
     });
+    return ev.target.value;
   }
 
   onPassWordChange (ev) {
     this.setState({
       password: ev.target.value
-    })
+    });
+    return ev.target.value;
   }
 
   onLogin () {
@@ -54,18 +54,17 @@ export default class App extends React.Component {
       this.setState({
         password:'',
         isLogin:true,
+        isError:false
       });
-      console.log(response.data.message)
     })
     .catch((error)=>{
       this.setState({
-        username:'',
-        password:'',
         informMessage:error.response.data.message,
         messageStyle: {
           display:'block',
           color:'red'
-        }
+        },
+        isError:true
       });
     });
   }
@@ -79,17 +78,13 @@ export default class App extends React.Component {
       this.setState({
         password:'',
         isLogin:true,
+        isError:false
       });
     })
     .catch((error) => {
       this.setState({
-        username:'',
-        password:'',
         informMessage:error.response.data.message,
-        messageStyle: {
-          display:'block',
-          color:'red'
-        }
+        isError:true
       });
     });
   }
@@ -97,28 +92,15 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="home">
-      { !this.state.isLogin &&
-        <div className="login">
-            <form action="#">
-              <fieldset>
-                  <legend>로그인 화면 입니다.</legend>
-                  <div className="box-inform">
-                    <label htmlFor="logId" className="txt-inform">ID</label>
-                    <input id="logId" type="text" className = "inp-inform" onChange = { this.onUserNameChange.bind(this) } />
-                  </div>
-                  <div className="box-inform">
-                    <label htmlFor="logPassword" className="txt-inform">Password</label>
-                    <input id="logPassword" type="password" className ="inp-inform" onChange = { this.onPassWordChange.bind(this) } />
-                  </div>
-                  <div className="box-button">
-                    <button type="submit" className="btn" onClick={ this.onLogin.bind(this) }>확인</button>
-                    <button type="reset" className="btn">취소</button>
-                    <button type="submit" className="btn join" onClick={ this.onJoin.bind(this) }>회원가입</button>
-                  </div>
-                  <p style={this.state.messageStyle} className="message">{ this.state.informMessage }</p>
-              </fieldset>
-            </form>
-          </div>
+        { !this.state.isLogin && 
+          <Login 
+            onUserNameChange = { this.onUserNameChange.bind(this) }
+            onPassWordChange = { this.onPassWordChange.bind(this) }
+            onLogin = { this.onLogin.bind(this) }
+            onJoin = { this.onJoin.bind(this) }
+            informMessage = { this.state.informMessage }
+            isError = { this.state.isError }
+          />
         }
         { this.state.isLogin &&
           articlesData.map((data, i) => {
