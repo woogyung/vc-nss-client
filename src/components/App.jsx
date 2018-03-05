@@ -5,9 +5,14 @@ import Article from './Article.jsx';
 import axios from 'axios';
 
 export default class App extends React.Component {
+  renderAticles(){
+
+  }
+
   render() {
     return (
       <div className="home">
+        this.props.
         {
           articlesData.map((data, i) => {
             return <Article
