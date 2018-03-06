@@ -74,12 +74,19 @@ h1 {
     letter-spacing: -0.5px;
 }
 
+.layout {
+  padding: 10px;
+  text-align: center;
+  background-color: hsla(0, 0%, 97%, 0.5);
+}
+
 label {
   display: block;
 }
 
 .btn {
   display: block;
+  margin: 5px auto;
   padding: 5px 10px;
   background-color: #03a9f4;
   color:#fff;
@@ -90,4 +97,10 @@ label {
   margin-top: 10px;
   font-size: 14px;
   letter-spacing: -1px;
+}
+
+.message {
+  color: red;
+  font-size:14px;
+  font-weight: bold;
 }

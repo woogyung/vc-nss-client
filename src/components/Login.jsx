@@ -1,33 +1,27 @@
 import React from 'react';
+import Signup from './Signup.jsx';
+import { BrowserRouter as Router, Route, Link, Redirect } from 'react-router-dom';
 
 export default class Login extends React.Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      loginStatus: false,
-    };
-  }
-
   render(){
-    return(
-      <div>
-        <div className="login-wrap">
-          <form>
-            <label>아이디</label>
-            <input text="" />
-            <label>비밀번호</label>
-            <input text="" />
-            <button onClick="">로그인</button>
-          </form>
-          <a href="">회원가입</a>
-        </div>
-        <div className="contents">
+    // const { from } = this.props.location.state || { from: { pathname: "/" } };
+    const loginStatus  = this.props.loggedIn;
 
-          로그인되면 /protect로 넘어가서 
-          기사보임...
-        </div>
+    if (loginStatus) {
+      return <Redirect to='/protected' />;
+    }
 
+    return (
+      <div className="layout">
+        <h2>login</h2>
+        <label>username</label>
+        <input type="text" onChange={this.props.usernameInput} />
+        <label>password</label>
+        <input type="text" onChange={this.props.passwordInput} />
+        <button type="submit" className="btn login-btn" onClick={this.props.handleLogin}>로그인</button>
+        <Link to="/signup" className="signup-btn">회원가입</Link>     
+        <Route path="/signup" component={Signup} />
       </div>
     );
   }
-}
+};
