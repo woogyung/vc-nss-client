@@ -7,42 +7,6 @@ import Login from './Login.jsx';
 import axios from 'axios';
 import { BrowserRouter as Router, Route, Link, Redirect } from 'react-router-dom';
 
-const Home = () => (
-  <div>
-    <h2>HOME</h2>
-  </div>
-);
-
-const fakeAuth = {
-  isAuthenticated: false,
-  authenticate(cb) {
-    this.isAuthenticated = true;
-    setTimeout(cb, 100);
-  },
-  signout(cb) {
-    this.isAuthenticated = false;
-    setTimeout(cb, 100);
-  }
-};
-
-const PrivateRoute = ({ component: Component, ...rest }) => (
-  <Route
-    {...rest}
-    render={props =>
-      fakeAuth.isAuthenticated ? (
-        <Component {...props} />
-      ) : (
-        <Redirect
-          to={{
-            pathname: "/login",
-            state: { from: props.location }
-          }}
-        />
-      )
-    }
-  />
-);
-
 export default class App extends React.Component {
   constructor(props){
     super(props);
@@ -59,6 +23,7 @@ export default class App extends React.Component {
   renderAticles(){
     return(
       <div className="home">
+        <button onClick={this.handleSignout.bind(this)}>singout</button>
         {
           articlesData.map((data, i) => {
             return <Article
@@ -86,7 +51,7 @@ export default class App extends React.Component {
     });
   }
 
-  handleLogin(e){
+  handleLogin(){
     axios.post('http://localhost:8081/login', {
       username: this.state.username,
       password: this.state.password
@@ -110,7 +75,7 @@ export default class App extends React.Component {
     });
   }
 
-  handleSignup(e){
+  handleSignup(){
     axios.post('http://localhost:8081/signup', {
       username: this.state.username,
       password: this.state.password,
@@ -152,47 +117,37 @@ export default class App extends React.Component {
               <Link to="/signup">signup</Link>
             </li>
           </ul>
-          
-          <Route path="/login" render={ () => (
-            <Login
-              usernameInput={this.handleUsername.bind(this)}
-              passwordInput={this.handlePassword.bind(this)}
-              loggedIn={this.state.loginStatus}
-              handleLogin={this.handleLogin.bind(this)}
-              message={this.state.message}
-            />
-          )} />
 
-          <Route path="/protected" render={ () => {
-            return(
-              ( this.state.accessToken) ? (
-                 <div className="home">
-                <button onClick={this.handleSignout.bind(this)}>singout</button>
-                {
-                  articlesData.map((data, i) => {
-                    return <Article
-                      url={data.short_url}
-                      mainHeadline={data.title}
-                      key={i}
-                      thumbnailURL={data.multimedia.length ? data.multimedia[1].url : null}
-                      publishedDate={data.published_date}
-                    />
-                  })
-                }
-              </div>
-              ) : <p>로그인 해주세요</p>
-            );
-          } }/>
+          <Route path="/login" 
+            render={ () => (
+              <Login
+                usernameInput={this.handleUsername.bind(this)}
+                passwordInput={this.handlePassword.bind(this)}
+                loggedIn={this.state.loginStatus}
+                handleLogin={this.handleLogin.bind(this)}
+                message={this.state.message}
+              />
+            )}
+          />
+
+          <Route path="/protected" 
+            render={ () => {
+              return(
+                (this.state.accessToken) ? this.renderAticles() : <p>로그인 해주세요</p>
+              );
+            }}
+          />
 
           <Route path="/signup" 
-            render={() => (
+            render={ () => (
               <Signup 
                 usernameInput={this.handleUsername.bind(this)}
                 passwordInput={this.handlePassword.bind(this)}
                 handleSignup={this.handleSignup.bind(this)}
                 message={this.state.message}
               />
-            )} />
+            )}
+          />
         </div>
       </Router>
     );

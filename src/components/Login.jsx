@@ -3,8 +3,7 @@ import Signup from './Signup.jsx';
 import { BrowserRouter as Router, Route, Link, Redirect } from 'react-router-dom';
 
 export default class Login extends React.Component {
-  render(){
-    // const { from } = this.props.location.state || { from: { pathname: "/" } };
+  render(){;
     const loginStatus  = this.props.loggedIn;
 
     if (loginStatus) {

@@ -2,9 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App.jsx';
 import './index.css';
-import Login from './components/Login.jsx';
-
-
 
 /* Day 13: React Router (https://reacttraining.com/react-router/) */
 
