@@ -10,7 +10,6 @@ import { BrowserRouter as Router, Route, Link, Redirect } from 'react-router-dom
 export default class App extends React.Component {
   constructor(props){
     super(props);
-    this.isLoggedIn = false;
     this.state = {
       loginStatus: false,
       username : '',
