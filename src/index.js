@@ -82,7 +82,8 @@ import './index.css';
 //);
 
 ReactDOM.render(
-  //컨테이너는 앱컨포넌트 (앱 컴포넌트가 최상단이니깐....)
+//컨테이너는 앱컨포넌트 (앱 컴포넌트가 최상단이니깐....)
+// 이거 될까????  
 //  <Router>
 //    <Route exact path ="/" component={App}>
 //      <Route path="login" component={Login}/>
