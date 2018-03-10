@@ -123,8 +123,14 @@ export default class App extends React.Component {
         <div className="home">
           <ul>
             <li><Link to="/home"> Home </Link></li>
-            <li><Link to="/login"> Login </Link></li>
-            <li><Link to="/signup"> Signup </Link></li>
+            {
+              !this.state.isLoggedIn &&
+              <li><Link to="/login"> Login </Link></li>
+            }
+            {
+              !this.state.isLoggedIn &&
+              <li><Link to="/signup"> Signup </Link></li>
+            }
             <li><Link to="/articles"> Articles </Link></li>
           </ul>
           <Route path="/home" component={Home} />
