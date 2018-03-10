@@ -127,7 +127,6 @@ export default class App extends React.Component {
             <li><Link to="/signup"> Signup </Link></li>
             <li><Link to="/articles"> Articles </Link></li>
           </ul>
-          
           <Route path="/home" component={Home} />
           <Route path="/login" render={() => {
             return !this.state.isLoggedIn ? <Login

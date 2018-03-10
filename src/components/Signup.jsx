@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default class signup extends React.Component {
-  
   render() {
     return (
       <div className="login-wrap">
