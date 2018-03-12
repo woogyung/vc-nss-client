@@ -1,17 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import App from './App.jsx';
 import LoginForm from './LoginForm.jsx';
-import { BrowserRouter as Router, Route, Link, Redirect } from 'react-router-dom';
-import classNames from 'classnames';
+import { BrowserRouter as Router, Route, Link, Redirect, Switch } from 'react-router-dom';
 import axios from 'axios';
+import Nav from './Nav.jsx';
+import classNames from 'classnames';
 
 const Home = () => (
   <div>
     <h2>HOME</h2>
     <App />
   </div>
-
 );
 
 const About = () => (
@@ -25,9 +24,10 @@ const Question = ({ match, location, history }) => (
     <h3>나는 {match.params.questionId}번 질문입니다.</h3>
     <p>나는 {match.params.questionId}번 질문에 대한 답변입니다.</p>
     {
-      history.location.search && <p>쿼리 스트링: {history.location.search}</p>
+      history.location.search && <p> 쿼리 스트링: {history.location.search}</p>
     }
   </div>
+  
 );
 
 const QnAs = ({ match }) => (
@@ -67,33 +67,91 @@ export default class Main extends React.Component {
     super();
 
     this.state = {
+      username:'',
+      password:'',
       isLoggedIn: false,
-    }
-  }
+      isError: false,
+      informMessage:''
+    };
+  };
+  
+  onIdChanged (ev) {
+    this.setState({
+      username:ev.target.value
+    });
+  };
+
+  onPasswordChanged (ev) {
+    this.setState({
+      password:ev.target.value
+    });
+  };
+
+  onSubmit () {
+    axios.post('http://localhost:8081/login', {
+      username:this.state.username,
+      password:this.state.password
+    })
+    .then((response) => {    
+      this.setState({
+        password:'',
+        isLoggedIn:true,
+        isError:false
+      });
+    })
+    .catch((error) => {
+      this.setState({
+        informMessage:error.response.data.message,
+        isError:true
+      });
+      console.log('login error', this.state.informMessage);
+    });
+  };
+
+  onJoin () {
+    axios.post('http://localhost:8081/signup', {
+      username: this.state.username,
+      password: this.state.password
+    })
+    .then(() => {    
+      this.setState({
+        password:'',
+        isLoggedIn:true,
+        isError:false
+      });
+    })
+    .catch((error) => {
+      this.setState({
+        informMessage:error.response.data.message,
+        isError:true
+      });
+    });
+
+    console.log(this.state.informMessage);
+  };
+  
   render() {
     return (
       <Router>
-        <div className="menu">
-          <ul className="list-menu">
-            <li>
-              <Link to="/login">Login</Link>
-            </li>
-            <li>
-              <Link to="/home">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/qna">Q&A</Link>
-            </li>
-          </ul>
-          <Route path="/login" component={LoginForm} />
-          <Route path="/home" component={App} />
-          <Route path="/about" component={About} />
-          <Route path="/qna" render={({ match }) => {
-            return this.state.isLoggedIn ? (<QnAs match={match} />) : (<Redirect to="/home" />);
-          }} />
+        <div className="main">
+          <Nav isLoggedIn={this.state.isLoggedIn} />
+          <Switch>
+            <Route path="/" exact={true} render={ ()=> !this.state.isLoggedIn ? (<Redirect to="/login" />) : (<Redirect to="/home" />) } />
+            <Route path="/login"
+              render={ () => !this.state.isLoggedIn ? (<LoginForm 
+                                  isLoggedIn={this.state.isLoggedIn}
+                                  isError={this.state.isError}
+                                  informMessage={this.state.informMessage}
+                                  onIdChanged={this.onIdChanged.bind(this)}
+                                  onPasswordChanged={ this.onPasswordChanged.bind(this)}
+                                  onSubmit={ this.onSubmit.bind(this)}
+                                  onJoin={this.onJoin.bind(this)}
+                                />) : (<Redirect to="/home" />)
+            }/>
+            <Route path="/home" render={ ()=> !this.state.isLoggedIn ? (<Redirect to="/login" />) : (<App />) } />
+            <Route path="/about" component={About} />
+            <Route path="/qna" render={({ match }) => !this.state.isLoggedIn ? (<QnAs match={match} />) : (<Redirect to="/home" />)} />
+          </Switch>
         </div>
       </Router>
     );

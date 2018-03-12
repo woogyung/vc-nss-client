@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App.jsx';
 import Main from './components/Main.jsx';
-import { BrowserRouter as Router, Route, Link, Redirect } from 'react-router-dom';
 import './index.css';
 
 /* Day 13: React Router (https://reacttraining.com/react-router/) */

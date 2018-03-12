@@ -1,8 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import articlesData from '../config/data.json';
 import Article from './Article.jsx';
-import axios from 'axios';
 
 export default class App extends React.Component {
   render() {

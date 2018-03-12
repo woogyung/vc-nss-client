@@ -93,11 +93,17 @@ h2 {
     box-sizing:border-box;
     -webkit-box-sizing:border-box;
 }
+.menu .list-menu.logIn {
+    width:542px;
+}
 .list-menu li {
     float:left;
     width:180px;
     height:55px;
     list-style:none;
+}
+.list-menu li .on {
+    background:#fff;
 }
 .list-menu li > a {
     display:block;
